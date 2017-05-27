@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebsiteFilmModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="idAcc" />
+    </Key>
+    <Property Name="idAcc" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idEmp" Type="int" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="Permission" Type="int" Nullable="false" />
+    <Property Name="State" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="int" Nullable="false" />
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="CategoryOfMovie">
+    <Key>
+      <PropertyRef Name="MovieID" />
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="MovieID" Type="int" Nullable="false" />
+    <Property Name="CategoryID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DetailMovie">
+    <Key>
+      <PropertyRef Name="IdDetail" />
+    </Key>
+    <Property Name="IdDetail" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MovieID" Type="int" />
+    <Property Name="MoviePart" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="ImagePicture" Type="nvarchar" MaxLength="2000" />
+    <Property Name="Note" Type="nvarchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="idEmp" />
+    </Key>
+    <Property Name="idEmp" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NameEmp" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="Address" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="Birthday" Type="datetime" />
+    <Property Name="Sex" Type="bit" />
+    <Property Name="Note" Type="nvarchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="Movie">
+    <Key>
+      <PropertyRef Name="MovieID" />
+    </Key>
+    <Property Name="MovieID" Type="int" Nullable="false" />
+    <Property Name="MovieName" Type="nvarchar" MaxLength="2000" />
+    <Property Name="URLDetail" Type="nvarchar" MaxLength="2000" />
+    <Property Name="LinkImage" Type="nvarchar" MaxLength="2000" />
+    <Property Name="Descriptions" Type="nvarchar" MaxLength="2000" />
+    <Property Name="Director" Type="nvarchar" MaxLength="2000" />
+    <Property Name="Writer" Type="nvarchar" MaxLength="2000" />
+    <Property Name="Stars" Type="nvarchar" MaxLength="2000" />
+    <Property Name="YearProduce" Type="int" />
+    <Property Name="AddressProduce" Type="nvarchar" MaxLength="2000" />
+    <Property Name="RunningTime" Type="nvarchar" MaxLength="2000" />
+    <Property Name="ReleaseDate" Type="date" />
+    <Property Name="ReleaseAddress" Type="nvarchar" MaxLength="2000" />
+    <Property Name="Img" Type="image" />
+    <Property Name="idEmp" Type="int" />
+    <Property Name="new" Type="nvarchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="Occupation">
+    <Key>
+      <PropertyRef Name="OccupationID" />
+    </Key>
+    <Property Name="OccupationID" Type="int" Nullable="false" />
+    <Property Name="OccupationName" Type="nvarchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="RatingOfMovie">
+    <Key>
+      <PropertyRef Name="MaThanhVien" />
+      <PropertyRef Name="MovieID" />
+    </Key>
+    <Property Name="MaThanhVien" Type="int" Nullable="false" />
+    <Property Name="MovieID" Type="int" Nullable="false" />
+    <Property Name="Rating" Type="int" />
+    <Property Name="Data" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="ThanhVien">
+    <Key>
+      <PropertyRef Name="MaThanhVien" />
+    </Key>
+    <Property Name="MaThanhVien" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HoTen" Type="nvarchar" MaxLength="200" />
+    <Property Name="GioiTinh" Type="bit" />
+    <Property Name="Passwords" Type="nvarchar" MaxLength="200" />
+    <Property Name="NgaySinh" Type="date" />
+    <Property Name="Gmail" Type="nvarchar" MaxLength="200" />
+    <Property Name="SoDienThoai" Type="int" />
+    <Property Name="OccupationID" Type="int" />
+  </EntityType>
+  <Association Name="_CategoryID">
+    <End Role="Category" Type="Self.Category" Multiplicity="1" />
+    <End Role="CategoryOfMovie" Type="Self.CategoryOfMovie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="CategoryOfMovie">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="_DetailMovie">
+    <End Role="Movie" Type="Self.Movie" Multiplicity="0..1" />
+    <End Role="DetailMovie" Type="Self.DetailMovie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Movie">
+        <PropertyRef Name="MovieID" />
+      </Principal>
+      <Dependent Role="DetailMovie">
+        <PropertyRef Name="MovieID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="_MaCV">
+    <End Role="Movie" Type="Self.Movie" Multiplicity="1" />
+    <End Role="RatingOfMovie" Type="Self.RatingOfMovie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Movie">
+        <PropertyRef Name="MovieID" />
+      </Principal>
+      <Dependent Role="RatingOfMovie">
+        <PropertyRef Name="MovieID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="_MovieID">
+    <End Role="Movie" Type="Self.Movie" Multiplicity="1" />
+    <End Role="CategoryOfMovie" Type="Self.CategoryOfMovie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Movie">
+        <PropertyRef Name="MovieID" />
+      </Principal>
+      <Dependent Role="CategoryOfMovie">
+        <PropertyRef Name="MovieID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="_NV">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Account" Type="Self.Account" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="idEmp" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="idAcc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="_UserUD">
+    <End Role="ThanhVien" Type="Self.ThanhVien" Multiplicity="1" />
+    <End Role="RatingOfMovie" Type="Self.RatingOfMovie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ThanhVien">
+        <PropertyRef Name="MaThanhVien" />
+      </Principal>
+      <Dependent Role="RatingOfMovie">
+        <PropertyRef Name="MaThanhVien" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Movie_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Movie" Type="Self.Movie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="idEmp" />
+      </Principal>
+      <Dependent Role="Movie">
+        <PropertyRef Name="idEmp" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ThanhVien_Occupation">
+    <End Role="Occupation" Type="Self.Occupation" Multiplicity="0..1" />
+    <End Role="ThanhVien" Type="Self.ThanhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Occupation">
+        <PropertyRef Name="OccupationID" />
+      </Principal>
+      <Dependent Role="ThanhVien">
+        <PropertyRef Name="OccupationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="prd_AccountLogin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+    <Parameter Name="Password" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="prd_Movie_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MovieID" Type="int" Mode="In" />
+    <Parameter Name="MovieName" Type="nvarchar" Mode="In" />
+    <Parameter Name="URLDetail" Type="nvarchar" Mode="In" />
+    <Parameter Name="ReleaseDate" Type="nvarchar" Mode="In" />
+    <Parameter Name="LinkImage" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="prd_MovieList_All" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="WebsiteFilmModelStoreContainer">
+    <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CategoryOfMovie" EntityType="Self.CategoryOfMovie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DetailMovie" EntityType="Self.DetailMovie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Movie" EntityType="Self.Movie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Occupation" EntityType="Self.Occupation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RatingOfMovie" EntityType="Self.RatingOfMovie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ThanhVien" EntityType="Self.ThanhVien" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="_CategoryID" Association="Self._CategoryID">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="CategoryOfMovie" EntitySet="CategoryOfMovie" />
+    </AssociationSet>
+    <AssociationSet Name="_DetailMovie" Association="Self._DetailMovie">
+      <End Role="Movie" EntitySet="Movie" />
+      <End Role="DetailMovie" EntitySet="DetailMovie" />
+    </AssociationSet>
+    <AssociationSet Name="_MaCV" Association="Self._MaCV">
+      <End Role="Movie" EntitySet="Movie" />
+      <End Role="RatingOfMovie" EntitySet="RatingOfMovie" />
+    </AssociationSet>
+    <AssociationSet Name="_MovieID" Association="Self._MovieID">
+      <End Role="Movie" EntitySet="Movie" />
+      <End Role="CategoryOfMovie" EntitySet="CategoryOfMovie" />
+    </AssociationSet>
+    <AssociationSet Name="_NV" Association="Self._NV">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Account" EntitySet="Account" />
+    </AssociationSet>
+    <AssociationSet Name="_UserUD" Association="Self._UserUD">
+      <End Role="ThanhVien" EntitySet="ThanhVien" />
+      <End Role="RatingOfMovie" EntitySet="RatingOfMovie" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Movie_Employee" Association="Self.FK_Movie_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Movie" EntitySet="Movie" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ThanhVien_Occupation" Association="Self.FK_ThanhVien_Occupation">
+      <End Role="Occupation" EntitySet="Occupation" />
+      <End Role="ThanhVien" EntitySet="ThanhVien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,64 @@
+﻿
+@using Web_cafe_film.Models;
+@model List<Movie>
+
+<div class="container">
+    <div class="row title_row">
+        <h3>recent uploads</h3>
+    </div>
+    @{
+        int i = 0;
+        foreach (var item in Model)
+        {
+            i++;
+            <div id="Phim">
+                <div class="row media-grid content_video_posts">
+                    <div class="jscroll-inner" style="height:0px; width:1250px" ;>
+                        <article class="col-sm-3 video_post postType3">
+                            <div class="inner row m0">
+                                <a href="#">
+                                    <div class="row screencast m0"> 
+                                <img src="@Url.Content(item.LinkImage)" alt="Image" style="width:100% " />
+
+                                        <div class="play_btn">Xem Phim</div>
+                                        <div class="media-length"> 17:30                                          
+                                        </div>                                     
+                                    </div>
+                                </a>
+                                <div class="row m0 post_data">
+                                    @Html.ActionLink("Chi Tiết Phim", "DetailMovie", new { @MovieID = item.MovieID })
+                                    <div class="row m0">                                        
+                                        <div class="fleft author">by <a href="#">@item.Descriptions</a></div>
+                                            <div class="fleft date">@item.ReleaseDate</div>
+                                     </div>
+                                </div>
+                                <div class="row m0 taxonomy">
+                                    <div class="fleft category">
+                                        <a href="#">
+                                            <img src="~/Image/.png/cat.png" />
+                                            Art
+                                        </a>
+                                    </div>
+                                    <div class="fright views">
+                                        <a href="#">
+                                            <img src="~/Image/.png/views.png" /> @item.MovieID
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           </article>
+                    </div>
+                </div>
+            </div>
+            if (i % 4 == 0)
+            {
+                <div style="clear:both"></div>
+            }
+        }
+    }    
+</div>
+
+
+
+
+         

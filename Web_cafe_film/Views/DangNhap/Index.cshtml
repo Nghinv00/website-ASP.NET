@@ -1,0 +1,96 @@
+﻿
+@*
+        Hệ thống đăng nhập của thành viên    
+*@
+@{
+    ViewBag.Title = "DangNhap";
+    // Layout = "~/Views/LayOut/NguoiDungLayOut.cshtml";
+}
+
+@model Web_cafe_film.Models.LoginThanhVienModel
+<link href="~/Content/DangNhap/DangNhapCss.css" rel="stylesheet" />
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Đăng Nhập Hệ Thống</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+
+    <style>
+        HTML, BODY {
+            cursor: url("../../../../Animation/diamondblue.ani"), url("../../../../Animation/diamondblue.gif"), auto;
+        }
+    </style>
+    <style>
+        A:hover {
+            cursor: url("../../../../Animation/diamondblue.ani"), url("../../../../Animation/diamondblue.gif"), auto;
+        }
+    </style>
+
+
+</head>
+<body>
+    @*@RenderBody()*@
+    @*@using (Html.BeginForm("Index", "Login", FormMethod.Post))*@
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, null, new { @class = "alert alert-danger" }) // Phần hiển thị lỗi khi lỗi trả về
+        <div class="container">
+            <section id="content">
+                <form action="">
+                    <h1>Đăng nhập</h1>
+                @*
+
+                   <div class="form-group">
+    @Html.TextBoxFor(model => model.username, new {@class="form-control", @placeholder="Tên tài khoản", @autofocus="autofocus" })
+
+                </div>*@   
+
+                        <div class="form-group">
+                            @*<input name="txtTaiKhoan" type="text" placeholder="Username" required="" id="username" />*@
+                            @Html.TextBoxFor(model => model.HoTen, new  { @class="form-control", @placeholder="Tên tài khoản", @autofocus="autofocus"})
+                        </div>
+                        <div>
+                            @*<input name="txtMatKhau " type="password" placeholder="Password" required="" id="password" />*@
+                            @Html.TextBoxFor(model => model.Passwords, new { @class = "form-control", @placeholder = "Mật khẩu", @type = "password" })
+
+
+                        </div>
+                        <div>
+
+                            <div class="col-xs-8">
+                                <div class="checkbox icheck">
+                                    <label>
+                                        @*  @Html.CheckBoxFor(u => u.RememberMe) Ghi nhớ mật khẩu*@
+
+                                    </label>
+                                </div>
+                            </div>
+                           
+                            @*<input type="submit" value="Đăng nhập" />*@
+
+                            <button type="submit" class="btn btn-lg btn-success btn-block">
+
+                                @Html.ActionLink("Đăng Nhập", "Index","Home")
+                            </button>
+                            @* @Html.ActionLink("Đăng nhập", "Index")*@
+                            <a href="#">Quên mật khẩu</a>
+                            @*<a href="#">Register</a>*@
+                        </div>
+</form><!-- form -->
+                @*<div class="button">
+                        <a href="#">Download source file</a>
+                    </div>*@<!-- button -->
+            </section><!-- content -->
+        </div><!-- container -->
+        @* <h3>@ViewBag.ThongBao</h3>*@
+    }
+</body>
+</html>
+@*}*@
+

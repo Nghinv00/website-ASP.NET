@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WebsiteFilmModelStoreContainer" CdmEntityContainer="WebsiteFilmEntities">
+    <EntitySetMapping Name="Account">
+      <EntityTypeMapping TypeName="WebsiteFilmModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="idAcc" ColumnName="idAcc" />
+          <ScalarProperty Name="idEmp" ColumnName="idEmp" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Permission" ColumnName="Permission" />
+          <ScalarProperty Name="State" ColumnName="State" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Category">
+      <EntityTypeMapping TypeName="WebsiteFilmModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetailMovie">
+      <EntityTypeMapping TypeName="WebsiteFilmModel.DetailMovie">
+        <MappingFragment StoreEntitySet="DetailMovie">
+          <ScalarProperty Name="IdDetail" ColumnName="IdDetail" />
+          <ScalarProperty Name="MovieID" ColumnName="MovieID" />
+          <ScalarProperty Name="MoviePart" ColumnName="MoviePart" />
+          <ScalarProperty Name="ImagePicture" ColumnName="ImagePicture" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DoanhThu">
+      <EntityTypeMapping TypeName="WebsiteFilmModel.DoanhThu">
+        <MappingFragment StoreEntitySet="DoanhThu">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Domain" ColumnName="Domain" />
+          <ScalarProperty Name="Hosting" ColumnName="Hosting" />
+          <ScalarProperty Name="MuaPhim" ColumnName="MuaPhim" />
+          <ScalarProperty Name="BanPhim" ColumnName="BanPhim" />
+          <ScalarProperty Name="BaoTri" ColumnName="BaoTri" />
+          <ScalarProperty Name="TongSoDu" ColumnName="TongSoDu" />
+          <ScalarProperty Name="IdEmployee" ColumnName="IdEmployee" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employee">
+      <EntityTypeMapping TypeName="WebsiteFilmModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="idEmp" ColumnName="idEmp" />
+          <ScalarProperty Name="NameEmp" ColumnName="NameEmp" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Movie">
+      <EntityTypeMapping TypeName="WebsiteFilmModel.Movie">
+        <MappingFragment StoreEntitySet="Movie">
+          <ScalarProperty Name="MovieID" ColumnName="MovieID" />
+          <ScalarProperty Name="MovieName" ColumnName="MovieName" />
+          <ScalarProperty Name="URLDetail" ColumnName="URLDetail" />
+          <ScalarProperty Name="LinkImage" ColumnName="LinkImage" />
+          <ScalarProperty Name="Descriptions" ColumnName="Descriptions" />
+          <ScalarProperty Name="Director" ColumnName="Director" />
+          <ScalarProperty Name="Writer" ColumnName="Writer" />
+          <ScalarProperty Name="Stars" ColumnName="Stars" />
+          <ScalarProperty Name="YearProduce" ColumnName="YearProduce" />
+          <ScalarProperty Name="AddressProduce" ColumnName="AddressProduce" />
+          <ScalarProperty Name="RunningTime" ColumnName="RunningTime" />
+          <ScalarProperty Name="ReleaseDate" ColumnName="ReleaseDate" />
+          <ScalarProperty Name="ReleaseAddress" ColumnName="ReleaseAddress" />
+          <ScalarProperty Name="Img" ColumnName="Img" />
+          <ScalarProperty Name="idEmp" ColumnName="idEmp" />
+          <ScalarProperty Name="New" ColumnName="New" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MovieSuggest">
+      <EntityTypeMapping TypeName="WebsiteFilmModel.MovieSuggest">
+        <MappingFragment StoreEntitySet="MovieSuggest">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Session" ColumnName="Session" />
+          <ScalarProperty Name="List" ColumnName="List" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MovieUser">
+      <EntityTypeMapping TypeName="WebsiteFilmModel.MovieUser">
+        <MappingFragment StoreEntitySet="MovieUser">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+          <ScalarProperty Name="IdMovie" ColumnName="IdMovie" />
+          <ScalarProperty Name="ThoiGianXem" ColumnName="ThoiGianXem" />
+          <ScalarProperty Name="Secsion" ColumnName="Secsion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Occupation">
+      <EntityTypeMapping TypeName="WebsiteFilmModel.Occupation">
+        <MappingFragment StoreEntitySet="Occupation">
+          <ScalarProperty Name="OccupationID" ColumnName="OccupationID" />
+          <ScalarProperty Name="OccupationName" ColumnName="OccupationName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RatingOfMovie">
+      <EntityTypeMapping TypeName="WebsiteFilmModel.RatingOfMovie">
+        <MappingFragment StoreEntitySet="RatingOfMovie">
+          <ScalarProperty Name="MaThanhVien" ColumnName="MaThanhVien" />
+          <ScalarProperty Name="MovieID" ColumnName="MovieID" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ThanhVien">
+      <EntityTypeMapping TypeName="WebsiteFilmModel.ThanhVien">
+        <MappingFragment StoreEntitySet="ThanhVien">
+          <ScalarProperty Name="MaThanhVien" ColumnName="MaThanhVien" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="Passwords" ColumnName="Passwords" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="Gmail" ColumnName="Gmail" />
+          <ScalarProperty Name="SoDienThoai" ColumnName="SoDienThoai" />
+          <ScalarProperty Name="SoDuTaiKhoan" ColumnName="SoDuTaiKhoan" />
+          <ScalarProperty Name="OccupationID" ColumnName="OccupationID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhimChuaKiemDuyet">
+      <EntityTypeMapping TypeName="WebsiteFilmModel.PhimChuaKiemDuyet">
+        <MappingFragment StoreEntitySet="PhimChuaKiemDuyet">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="MovieID" ColumnName="MovieID" />
+          <ScalarProperty Name="MovieName" ColumnName="MovieName" />
+          <ScalarProperty Name="URLDetail" ColumnName="URLDetail" />
+          <ScalarProperty Name="LinkImage" ColumnName="LinkImage" />
+          <ScalarProperty Name="Descriptions" ColumnName="Descriptions" />
+          <ScalarProperty Name="Director" ColumnName="Director" />
+          <ScalarProperty Name="Writer" ColumnName="Writer" />
+          <ScalarProperty Name="Stars" ColumnName="Stars" />
+          <ScalarProperty Name="YearProduce" ColumnName="YearProduce" />
+          <ScalarProperty Name="AddressProduce" ColumnName="AddressProduce" />
+          <ScalarProperty Name="RunningTime" ColumnName="RunningTime" />
+          <ScalarProperty Name="ReleaseDate" ColumnName="ReleaseDate" />
+          <ScalarProperty Name="ReleaseAddress" ColumnName="ReleaseAddress" />
+          <ScalarProperty Name="Img" ColumnName="Img" />
+          <ScalarProperty Name="idEmp" ColumnName="idEmp" />
+          <ScalarProperty Name="new" ColumnName="new" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="prd_AccountLogin" FunctionName="WebsiteFilmModel.Store.prd_AccountLogin" />
+    <FunctionImportMapping FunctionImportName="prd_Bang1_Update" FunctionName="WebsiteFilmModel.Store.prd_Bang1_Update" />
+    <FunctionImportMapping FunctionImportName="prd_Movie_Insert" FunctionName="WebsiteFilmModel.Store.prd_Movie_Insert" />
+    <FunctionImportMapping FunctionImportName="prd_Movie_SelectAll" FunctionName="WebsiteFilmModel.Store.prd_Movie_SelectAll" />
+    <FunctionImportMapping FunctionImportName="prd_MovieList_All" FunctionName="WebsiteFilmModel.Store.prd_MovieList_All">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="WebsiteFilmModel.prd_MovieList_All_Result">
+          <ScalarProperty Name="MovieID" ColumnName="MovieID" />
+          <ScalarProperty Name="MovieName" ColumnName="MovieName" />
+          <ScalarProperty Name="URLDetail" ColumnName="URLDetail" />
+          <ScalarProperty Name="LinkImage" ColumnName="LinkImage" />
+          <ScalarProperty Name="Descriptions" ColumnName="Descriptions" />
+          <ScalarProperty Name="Director" ColumnName="Director" />
+          <ScalarProperty Name="Writer" ColumnName="Writer" />
+          <ScalarProperty Name="Stars" ColumnName="Stars" />
+          <ScalarProperty Name="YearProduce" ColumnName="YearProduce" />
+          <ScalarProperty Name="AddressProduce" ColumnName="AddressProduce" />
+          <ScalarProperty Name="RunningTime" ColumnName="RunningTime" />
+          <ScalarProperty Name="ReleaseDate" ColumnName="ReleaseDate" />
+          <ScalarProperty Name="ReleaseAddress" ColumnName="ReleaseAddress" />
+          <ScalarProperty Name="Img" ColumnName="Img" />
+          <ScalarProperty Name="idEmp" ColumnName="idEmp" />
+          <ScalarProperty Name="New" ColumnName="New" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="prd_MovieSuggest_Insert" FunctionName="WebsiteFilmModel.Store.prd_MovieSuggest_Insert" />
+    <FunctionImportMapping FunctionImportName="prd_Table1_Select" FunctionName="WebsiteFilmModel.Store.prd_Table1_Select" />
+    <FunctionImportMapping FunctionImportName="prd_ThanhVienLogin" FunctionName="WebsiteFilmModel.Store.prd_ThanhVienLogin" />
+  </EntityContainerMapping>
+</Mapping>

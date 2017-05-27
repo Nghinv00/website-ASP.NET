@@ -1,0 +1,140 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+@model Web_cafe_film.Areas.Admin.Models.LoginModel
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập hệ thống</title>
+
+
+    <!-- Core CSS - Include with every page -->
+    @*<link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/plugins/pace/pace-theme-big-counter.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/main-style.css" rel="stylesheet" />*@
+
+    <link href="~/Areas/assets/Login/bootstrap.css" rel="stylesheet" />
+    <link href="~/Areas/assets/Login/font-awesome.css" rel="stylesheet" />
+    <link href="~/Areas/assets/Login/pace-theme-big-counter.css" rel="stylesheet" />
+    <link href="~/Areas/assets/Login/style.css" rel="stylesheet" />
+    <link href="~/Areas/assets/Login/main-style.css" rel="stylesheet" />
+    <link href="~/Areas/assets/Login/Admin.css" rel="stylesheet" />
+
+
+    <style>
+        HTML, BODY {
+            cursor: url("../../../../Animation/diamondblue.ani"), url("../../../../Animation/diamondblue.gif"), auto;
+        }
+    </style>
+    <style>
+        A:hover {
+            cursor: url("../../../../Animation/diamondblue.ani"), url("../../../../Animation/diamondblue.gif"), auto;
+        }
+    </style>
+
+
+
+</head>
+
+<body class="body-Login-back">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 text-center logo-margin ">
+                <p class="logo">
+                    <a title="Administrator"> 
+                        <h2>
+                            Chào mừng bạn đến với Hệ thống quản lý Xem Phim Ánh Trăng
+                        </h2>
+                            </a>
+                </p>
+                @*<img src="assets/img/logo.png" alt="" />*@           
+
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <div class="login-panel panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Đăng nhập hệ thống</h3>
+                    </div>
+                    
+
+
+                    <div class="panel-body">
+                        @using (Html.BeginForm())
+                        {
+                                @Html.AntiForgeryToken()
+                            @Html.ValidationSummary(true ,null, new {@class="alert alert-danger"} ) // Phần hiển thị lỗi khi lỗi trả về  
+                        
+                                <fieldset>
+                                    <div class="form-group">
+  @Html.TextBoxFor(model => model.username, new {@class="form-control", @placeholder="Tên tài khoản", @autofocus="autofocus" })
+                                     
+                                    </div>
+                                    <div class="form-group">
+ @Html.TextBoxFor(model => model.password , new { @class="form-control", @placeholder = "Mật khẩu", @type="password" })
+                                   
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            @Html.CheckBoxFor(model => model.remember)                                         
+                                                    Lưu  mật khẩu
+                                        </label>
+                                    </div>
+                                    <!-- Change this to a button or input when using this as a form -->
+                           
+                                    
+                                     <button type="submit" class="btn btn-lg btn-success btn-block">                                         Đăng nhập
+                                     </button>
+                                    @*<a href="@Url.Action("Index", "Home")" class="">Đăng nhập</a>*@
+
+                                </fieldset>
+                            @*</form>*@
+
+                        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Core Scripts - Include with every page -->
+    @*<script src="assets/plugins/jquery-1.10.2.js"></script>
+    <script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/plugins/metisMenu/jquery.metisMenu.js"></script>*@
+
+    <script src="~/Areas/assets/Login/jquery-1.10.2.js"></script>
+    <script src="~/Areas/assets/Login/bootstrap.min.js"></script>
+    <script src="~/Areas/assets/Login/jquery.metisMenu.js"></script>
+
+</body>
+
+</html>
+

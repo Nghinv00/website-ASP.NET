@@ -1,0 +1,110 @@
+﻿
+@model IEnumerable<Web_cafe_film.Models.Movie>
+
+@{
+    ViewBag.Title = "QuanLyPhim";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    HTML, BODY {
+        cursor: url("../../../../Animation/diamondblue.ani"), url("../../../../Animation/diamondblue.gif"), auto;
+    }
+</style>
+<style>
+    A:hover {
+        cursor: url("../../../../Animation/diamondblue.ani"), url("../../../../Animation/diamondblue.gif"), auto;
+    }
+</style>
+<p>
+    <h2>
+        @Html.ActionLink("Thêm mới bộ phim", "ThemMoi")
+    </h2>
+</p>
+
+<div class="row">
+    <div class="col-xs-12">
+
+        <div class="box">
+            <div class="box-header">
+                <h3 class="box-title">Mời bạn thao tác với cơ sở dữ liệu.... </h3>
+            </div>
+
+            <div class="box-body">
+                <table id="example2" class="table table-bordered table-hover">
+
+
+                       @*<table class="table">*@
+                       @*<tr>
+                    <th>    @Html.DisplayNameFor(model => model.MovieName)       </th>
+                    <th>     @Html.DisplayNameFor(model => model.URLDetail</th>
+                    <th>     @Html.DisplayNameFor(model => model.LinkImage)      </th>
+                    <th>     @Html.DisplayNameFor(model => model.Descriptions)  </th>
+                    <th>      @Html.DisplayNameFor(model => model.Director)      </th>
+                    <th>      @Html.DisplayNameFor(model => model.Writer)         </th>
+                    <th>    @Html.DisplayNameFor(model => model.Stars)      </th>
+                    <th>  @Html.DisplayNameFor(model => model.YearProduce)  </th>
+                    <th>   @Html.DisplayNameFor(model => model.AddressProduce)  </th>
+                    <th>      @Html.DisplayNameFor(model => model.RunningTime)   </th>
+                    <th>  @Html.DisplayNameFor(model => model.ReleaseDate)     </th>
+                    <th>   @Html.DisplayNameFor(model => model.ReleaseAddress)       </th>                   
+                            <th>       @Html.DisplayNameFor(model => model.Img)            </th>
+                    <th>   @Html.DisplayNameFor(model => model.New)                    </th>
+                    <th>       @Html.DisplayNameFor(model => model.Employee.NameEmp)         </th>
+                    <th></th>
+                </tr>*@
+
+
+                    <thead>
+                        <tr>
+                            <th style="width:3%;height:100px">STT</th>
+                            <th style="width:5%;height:100px">Tên phim</th>
+                            <th style="width:5%;height:100px">Link</th>
+                            <th style="width:15%;height:100px">Ảnh Poster</th>
+                            <th style="width:10%;height:100px">Đạo Diễn</th>
+                            <th style="width:10%;height:100px">Biên Kịch</th>
+                            <th style="width:10%;height:100px">Ngôi Sao</th>
+                            <th style="width:13%;height:100px">Mô tả</th>
+                            <th style="width:8%;height:100px">Thời Gian SX</th>
+                            <th style="width:5%;height:100px">Thời Lượng</th>
+                            <th style="width:5%;height:100px">Thể Loại</th>
+                            <th style="width:5%;height:100px">Hiển thị(1)/Vô Hiệu Hóa(0)</th>
+                            <th style="width:5%;height:100px"></th>                        
+                        </tr>
+                    </thead>        
+
+                    @foreach (var item in Model)
+                    {
+                        <tbody>
+                            <tr>
+                                <td style="width:3%;height:100px">@Html.DisplayFor(modelItem => item.MovieID)</td>
+                                <td style="width:5%;height:100px">@Html.DisplayFor(modelItem => item.MovieName)</td>
+                                <td style="width:5%;height:100px">@Html.DisplayFor(modelItem => item.URLDetail) </td>
+                                @*<td style="width:15%;height:100px">@Html.DisplayFor(modelItem => item.LinkImage) </td>*@  
+     <td style="width:15%;height:100px"><img src="@Url.Content("~/LinkImage/"+item.LinkImage)" width="100px" height="100px"></td>
+                                <td style="width:10%;height:100px">@Html.DisplayFor(modelItem => item.Director)</td>
+                                <td style="width:10%;height:100px"> @Html.DisplayFor(modelItem => item.Writer)</td>
+                                <td style="width:10%;height:100px">@Html.DisplayFor(modelItem => item.Stars)</td>
+                                <td style="width:13%;height:100px"> @Html.DisplayFor(modelItem => item.Descriptions)</td>
+                                <td style="width:8%;height:100px">@Html.DisplayFor(modelItem => item.ReleaseDate)</td>
+                                <td style="width:5%;height:100px">@Html.DisplayFor(modelItem => item.RunningTime)</td>
+                                <td style="width:5%;height:100px">@Html.DisplayFor(modelItem => item.Category.CategoryName)</td>
+                                <td style="width:5%;height:100px">@Html.DisplayFor(modelItem => item.New)</td>
+                                <td style="width:5%;height:100px">
+                                    @Html.ActionLink("Chỉnh Sửa", "ChinhSua", new { @MovieID = item.MovieID }) 
+                                    @Html.ActionLink("Hiển Thị", "HienThi", new { @MovieID = item.MovieID }) 
+                                    @Html.ActionLink("Xóa", "Xoa", new { @MovieID = item.MovieID })
+                                </td>
+                            </tr>
+                        </tbody>
+                    }
+
+                </table>
+            </div>
+            <!-- /.box-body -->
+        </div>
+        <!-- /.box -->
+    </div>
+    <!-- /.col -->
+</div>
+<!-- /.row -->

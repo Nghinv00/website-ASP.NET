@@ -1,0 +1,69 @@
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\Models.dll.config
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\Models.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\Models.pdb
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\EntityFramework.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\EntityFramework.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\obj\Debug\Models.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\obj\Debug\Models.pdb
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\Models.dll.config
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\Models.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\Models.pdb
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\EntityFramework.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\EntityFramework.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\obj\Debug\Models.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\obj\Debug\Models.pdb
+F:\Project\Models\bin\Debug\Models.dll.config
+F:\Project\Models\bin\Debug\Models.dll
+F:\Project\Models\bin\Debug\Models.pdb
+F:\Project\Models\bin\Debug\EntityFramework.dll
+F:\Project\Models\bin\Debug\EntityFramework.SqlServer.dll
+F:\Project\Models\bin\Debug\EntityFramework.xml
+F:\Project\Models\bin\Debug\EntityFramework.SqlServer.xml
+F:\Project\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+F:\Project\Models\obj\Debug\Models.dll
+F:\Project\Models\obj\Debug\Models.pdb
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Models\bin\Debug\Models.dll.config
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Models\bin\Debug\Models.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Models\bin\Debug\Models.pdb
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Models\bin\Debug\EntityFramework.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Models\bin\Debug\EntityFramework.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Models\obj\Debug\Models.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Models\obj\Debug\Models.pdb
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Models\bin\Debug\Models.dll.config
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Models\bin\Debug\Models.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Models\bin\Debug\Models.pdb
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Models\bin\Debug\EntityFramework.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Models\bin\Debug\EntityFramework.SqlServer.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Models\bin\Debug\EntityFramework.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Models\bin\Debug\EntityFramework.SqlServer.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Models\obj\Debug\Models.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Models\obj\Debug\Models.pdb
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Models\bin\Debug\Models.dll.config
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Models\bin\Debug\Models.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Models\bin\Debug\Models.pdb
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Models\bin\Debug\EntityFramework.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Models\bin\Debug\EntityFramework.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Models\obj\Debug\Models.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Models\obj\Debug\Models.pdb
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Models\bin\Debug\Models.dll.config
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Models\bin\Debug\Models.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Models\bin\Debug\Models.pdb
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Models\bin\Debug\EntityFramework.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Models\bin\Debug\EntityFramework.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Models\obj\Debug\Models.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Models\obj\Debug\Models.pdb

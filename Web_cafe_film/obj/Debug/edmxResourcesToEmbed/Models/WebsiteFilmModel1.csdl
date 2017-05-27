@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebsiteFilmModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="idAcc" />
+    </Key>
+    <Property Name="idAcc" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idEmp" Type="Int32" Nullable="false" />
+    <Property Name="Username" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Permission" Type="Int32" Nullable="false" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Self.C_NV" FromRole="Account" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="Int32" Nullable="false" />
+    <Property Name="CategoryName" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Movies" Relationship="Self.CategoryOfMovie" FromRole="Category" ToRole="Movie" />
+  </EntityType>
+  <EntityType Name="DetailMovie">
+    <Key>
+      <PropertyRef Name="IdDetail" />
+    </Key>
+    <Property Name="IdDetail" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MovieID" Type="Int32" />
+    <Property Name="MoviePart" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ImagePicture" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="Note" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Movie" Relationship="Self.C_DetailMovie" FromRole="DetailMovie" ToRole="Movie" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="idEmp" />
+    </Key>
+    <Property Name="idEmp" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameEmp" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Birthday" Type="DateTime" Precision="3" />
+    <Property Name="Sex" Type="Boolean" />
+    <Property Name="Note" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Account" Relationship="Self.C_NV" FromRole="Employee" ToRole="Account" />
+    <NavigationProperty Name="Movies" Relationship="Self.FK_Movie_Employee" FromRole="Employee" ToRole="Movie" />
+  </EntityType>
+  <EntityType Name="Movie">
+    <Key>
+      <PropertyRef Name="MovieID" />
+    </Key>
+    <Property Name="MovieID" Type="Int32" Nullable="false" />
+    <Property Name="MovieName" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="URLDetail" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="LinkImage" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="Descriptions" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="Director" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="Writer" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="Stars" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="YearProduce" Type="Int32" />
+    <Property Name="AddressProduce" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="RunningTime" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="ReleaseDate" Type="DateTime" Precision="0" />
+    <Property Name="ReleaseAddress" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="Img" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="idEmp" Type="Int32" />
+    <Property Name="new" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DetailMovies" Relationship="Self.C_DetailMovie" FromRole="Movie" ToRole="DetailMovie" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Movie_Employee" FromRole="Movie" ToRole="Employee" />
+    <NavigationProperty Name="RatingOfMovies" Relationship="Self.C_MaCV" FromRole="Movie" ToRole="RatingOfMovie" />
+    <NavigationProperty Name="Categories" Relationship="Self.CategoryOfMovie" FromRole="Movie" ToRole="Category" />
+  </EntityType>
+  <EntityType Name="Occupation">
+    <Key>
+      <PropertyRef Name="OccupationID" />
+    </Key>
+    <Property Name="OccupationID" Type="Int32" Nullable="false" />
+    <Property Name="OccupationName" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ThanhViens" Relationship="Self.FK_ThanhVien_Occupation" FromRole="Occupation" ToRole="ThanhVien" />
+  </EntityType>
+  <EntityType Name="RatingOfMovie">
+    <Key>
+      <PropertyRef Name="MaThanhVien" />
+      <PropertyRef Name="MovieID" />
+    </Key>
+    <Property Name="MaThanhVien" Type="Int32" Nullable="false" />
+    <Property Name="MovieID" Type="Int32" Nullable="false" />
+    <Property Name="Rating" Type="Int32" />
+    <Property Name="Data" Type="Int32" />
+    <NavigationProperty Name="Movie" Relationship="Self.C_MaCV" FromRole="RatingOfMovie" ToRole="Movie" />
+    <NavigationProperty Name="ThanhVien" Relationship="Self.C_UserUD" FromRole="RatingOfMovie" ToRole="ThanhVien" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="ThanhVien">
+    <Key>
+      <PropertyRef Name="MaThanhVien" />
+    </Key>
+    <Property Name="MaThanhVien" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HoTen" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="GioiTinh" Type="Boolean" />
+    <Property Name="Passwords" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="Gmail" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoDienThoai" Type="Int32" />
+    <Property Name="OccupationID" Type="Int32" />
+    <NavigationProperty Name="Occupation" Relationship="Self.FK_ThanhVien_Occupation" FromRole="ThanhVien" ToRole="Occupation" />
+    <NavigationProperty Name="RatingOfMovies" Relationship="Self.C_UserUD" FromRole="ThanhVien" ToRole="RatingOfMovie" />
+  </EntityType>
+  <Association Name="C_NV">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Account" Type="Self.Account" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="idEmp" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="idAcc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="C_DetailMovie">
+    <End Role="Movie" Type="Self.Movie" Multiplicity="0..1" />
+    <End Role="DetailMovie" Type="Self.DetailMovie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Movie">
+        <PropertyRef Name="MovieID" />
+      </Principal>
+      <Dependent Role="DetailMovie">
+        <PropertyRef Name="MovieID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Movie_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Movie" Type="Self.Movie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="idEmp" />
+      </Principal>
+      <Dependent Role="Movie">
+        <PropertyRef Name="idEmp" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="C_MaCV">
+    <End Role="Movie" Type="Self.Movie" Multiplicity="1" />
+    <End Role="RatingOfMovie" Type="Self.RatingOfMovie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Movie">
+        <PropertyRef Name="MovieID" />
+      </Principal>
+      <Dependent Role="RatingOfMovie">
+        <PropertyRef Name="MovieID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ThanhVien_Occupation">
+    <End Role="Occupation" Type="Self.Occupation" Multiplicity="0..1" />
+    <End Role="ThanhVien" Type="Self.ThanhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Occupation">
+        <PropertyRef Name="OccupationID" />
+      </Principal>
+      <Dependent Role="ThanhVien">
+        <PropertyRef Name="OccupationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="C_UserUD">
+    <End Role="ThanhVien" Type="Self.ThanhVien" Multiplicity="1" />
+    <End Role="RatingOfMovie" Type="Self.RatingOfMovie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ThanhVien">
+        <PropertyRef Name="MaThanhVien" />
+      </Principal>
+      <Dependent Role="RatingOfMovie">
+        <PropertyRef Name="MaThanhVien" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CategoryOfMovie">
+    <End Role="Category" Type="Self.Category" Multiplicity="*" />
+    <End Role="Movie" Type="Self.Movie" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="WebsiteFilmEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Accounts" EntityType="Self.Account" />
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="DetailMovies" EntityType="Self.DetailMovie" />
+    <EntitySet Name="Employees" EntityType="Self.Employee" />
+    <EntitySet Name="Movies" EntityType="Self.Movie" />
+    <EntitySet Name="Occupations" EntityType="Self.Occupation" />
+    <EntitySet Name="RatingOfMovies" EntityType="Self.RatingOfMovie" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="ThanhViens" EntityType="Self.ThanhVien" />
+    <AssociationSet Name="C_NV" Association="Self.C_NV">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Account" EntitySet="Accounts" />
+    </AssociationSet>
+    <AssociationSet Name="C_DetailMovie" Association="Self.C_DetailMovie">
+      <End Role="Movie" EntitySet="Movies" />
+      <End Role="DetailMovie" EntitySet="DetailMovies" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Movie_Employee" Association="Self.FK_Movie_Employee">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Movie" EntitySet="Movies" />
+    </AssociationSet>
+    <AssociationSet Name="C_MaCV" Association="Self.C_MaCV">
+      <End Role="Movie" EntitySet="Movies" />
+      <End Role="RatingOfMovie" EntitySet="RatingOfMovies" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ThanhVien_Occupation" Association="Self.FK_ThanhVien_Occupation">
+      <End Role="Occupation" EntitySet="Occupations" />
+      <End Role="ThanhVien" EntitySet="ThanhViens" />
+    </AssociationSet>
+    <AssociationSet Name="C_UserUD" Association="Self.C_UserUD">
+      <End Role="ThanhVien" EntitySet="ThanhViens" />
+      <End Role="RatingOfMovie" EntitySet="RatingOfMovies" />
+    </AssociationSet>
+    <AssociationSet Name="CategoryOfMovie" Association="Self.CategoryOfMovie">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Movie" EntitySet="Movies" />
+    </AssociationSet>
+    <FunctionImport Name="prd_AccountLogin" ReturnType="Collection(Boolean)">
+      <Parameter Name="Username" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prd_Movie_Insert">
+      <Parameter Name="MovieID" Mode="In" Type="Int32" />
+      <Parameter Name="MovieName" Mode="In" Type="String" />
+      <Parameter Name="URLDetail" Mode="In" Type="String" />
+      <Parameter Name="ReleaseDate" Mode="In" Type="String" />
+      <Parameter Name="LinkImage" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prd_MovieList_All" ReturnType="Collection(WebsiteFilmModel.prd_MovieList_All_Result)" />
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(WebsiteFilmModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(WebsiteFilmModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="prd_MovieList_All_Result">
+    <Property Type="Int32" Name="MovieID" Nullable="false" />
+    <Property Type="String" Name="MovieName" Nullable="true" MaxLength="2000" />
+    <Property Type="String" Name="URLDetail" Nullable="true" MaxLength="2000" />
+    <Property Type="String" Name="LinkImage" Nullable="true" MaxLength="2000" />
+    <Property Type="String" Name="Descriptions" Nullable="true" MaxLength="2000" />
+    <Property Type="String" Name="Director" Nullable="true" MaxLength="2000" />
+    <Property Type="String" Name="Writer" Nullable="true" MaxLength="2000" />
+    <Property Type="String" Name="Stars" Nullable="true" MaxLength="2000" />
+    <Property Type="Int32" Name="YearProduce" Nullable="true" />
+    <Property Type="String" Name="AddressProduce" Nullable="true" MaxLength="2000" />
+    <Property Type="String" Name="RunningTime" Nullable="true" MaxLength="2000" />
+    <Property Type="DateTime" Name="ReleaseDate" Nullable="true" />
+    <Property Type="String" Name="ReleaseAddress" Nullable="true" MaxLength="2000" />
+    <Property Type="Binary" Name="Img" Nullable="true" MaxLength="Max" />
+    <Property Type="Int32" Name="idEmp" Nullable="true" />
+    <Property Type="String" Name="new" Nullable="true" MaxLength="2000" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

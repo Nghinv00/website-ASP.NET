@@ -1,0 +1,70 @@
+﻿
+
+@using Web_cafe_film.Models;
+@model List<Employee>
+
+<thead>
+    <tr>
+        <th>Mã Nhân Viên</th>
+        <th>Tên Nhân Viên</th>
+        <th>SĐT</th>
+        <th>Địa Chỉ</th>
+        <th>Ngày Sinh</th>
+        <td>Giới Tính</td>
+        <th>Ghi Chú</th>        
+    </tr>
+</thead>
+@{
+    foreach (var item in Model)
+    {
+        <tbody>
+            <tr role="row" class="odd">
+               
+                <td>@item.idEmp</td>
+                <td>@item.NameEmp</td>
+                <td>@item.Phone</td>
+                <td>@item.Address</td>
+                <td>@item.Birthday</td>
+                <td>@item.Sex</td>
+                <td>@item.Note</td>
+            </tr>
+        </tbody>
+    }
+}
+<tfoot>
+    <tr>
+        <th>Mã Nhân Viên</th>
+        <th>Tên Nhân Viên</th>
+        <th>SĐT</th>
+        <th>Địa Chỉ</th>
+        <th>Ngày Sinh</th>
+        <td>Giới Tính</td>
+        <th>Ghi Chú</th>    
+    </tr>
+</tfoot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,289 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    //     Layout = "~/Areas/Admin/Views/DanhSach/Index.cshtml";
+    ViewBag.Title = "ThemMoi";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm mới bộ phim</title>
+
+    @*<link href="/Content/css/jquery-ui.css" rel="stylesheet" />
+        <link href="/Content/css/bootstrap.css" rel="stylesheet" />
+        <link href="/Content/css/nn-style.css" rel="stylesheet" />*@
+    <link href="~/Areas/assets/Themphim/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Areas/assets/Themphim/css/jquery-ui.css" rel="stylesheet" />
+    <link href="~/Areas/assets/Themphim/css/nn-style.css" rel="stylesheet" />
+
+
+    <script src="/Scripts/modernizr-2.6.2.js"></script>
+    <script src="~/Areas/assets/Themphim/js/modernizr-2.6.2.js"></script>
+
+    <meta property="fb:app_id" content="654483928017940" />
+    <meta property="fb:admins" content="100003286341888" />
+
+
+</head>
+<body>
+    <!-- Thẻ nhúng link facebook: Kết nối tới API của sever . -->
+    <div id="fb-root">
+
+    </div>
+    <script>
+        (function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.3&appId=654483928017940";
+    fjs.parentNode.insertBefore(js, fjs);
+        }
+        (document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- .the end nhúng link facebook-->
+
+    <div class="container">
+        <div class="container row">
+            <div class="col-md-3 col-sm-3 col-lg-3 col-xs-12">
+
+            </div><!--end left-sidebar-->
+
+
+
+            <div class="col-md-9 col-sm-9 col-lg-9 col-xs-12">
+                @*<h3><button btn btn-block btn-danger>Thêm Tập Phim Mới</button></h3>*@
+                <h3>
+                    <button type="button" class="btn btn-block btn-danger">.::Thêm Mới Phim Vào Danh Sách::.</button>
+                </h3>
+
+                @*<form action="/Account/Register" class="form-horizontal" method="post" role="form">*@
+                <form action="#" class="form-horizontal" method="post" role="form">
+
+                    <input name="__RequestVerificationToken" type="hidden" value="mkxoUNCrzqlKvNU2IipAU80v3f4d0rmY2b5_7IKqXIZUXcqSttmGdtrqum34Kgqru_yzoe8ZJuSpJuqld5rsa8m-bsBHN4Zzi_Y2UpE3eWA1" />
+
+                    <h4>
+                        <label>Mời nhập vào các trường của bộ phim</label>
+                    </h4>
+
+
+                    <div class="validation-summary-valid" data-valmsg-summary="true">
+                        <ul>
+                            <li style="display:none"></li>
+                        </ul>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Id">MovieID - STT</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Id" name="Id" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Password">MovieName-Tên Phim </label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Password" name="Password" type="text" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">URLDetail-Link Chi Tiết</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="ConfirmPassword" name="ConfirmPassword" type="text" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Fullname">ReleaseDate-TG cập nhật</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Fullname" name="Fullname" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Email">LinkImage - Poster</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Email" name="Email" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Photo">Descriptions -Mô tả phim</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Photo" name="Photo" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Photo">Director - Đạo diễn</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Photo" name="Photo" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Photo">Writer - Biên kịch</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Photo" name="Photo" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Photo">Stars-Diễn Viên Chính</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Photo" name="Photo" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Photo">YearProduce-Năm Sản Xuất</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Photo" name="Photo" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Photo">AddressProduce-Nơi Sản Xuất</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Photo" name="Photo" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Photo">RunningTime-Thời Lượng</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Photo" name="Photo" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Photo">ReleaseAddress-Địa chỉ cập nhật</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Photo" name="Photo" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Photo">Img - Ảnh minh họa</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Photo" name="Photo" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-3 col-md-9">
+                            <input type="submit" class="btn btn-default" value="Lưu" style="width: 90px;height: 40px; />
+                            <a href="#">@*<i class="fa fa-circle-o"></i>*@</a>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-3 col-md-9">
+                            @*<input type="submit" class="btn btn-default" value="Hủy" />*@
+                            <input type="submit" class="btn btn-default" value="Hủy" style="width: 90px;height: 40px;" />
+                            <a href="#">@*<i class="fa fa-circle-o"></i>*@</a>
+                        </div>
+                    </div>
+
+
+
+                    <h3>
+                        <button type="button" class="btn btn-block btn-danger">.::Thêm Mới Tâp Phim Vào Danh Sách::.</button>
+                    </h3>
+                    <h4>
+                        <label>Mời nhập vào các trường của từng tập phim</label>
+                    </h4>
+
+                    @*<div class="form-group">
+                            <label class="col-md-3 control-label" for="Id">Số thứ tự</label>
+                            <div class="col-md-9">
+                                <input class="form-control" id="Id" name="Id" type="text" value="" />
+                            </div>
+                        </div>*@
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Id">Thuộc bộ phim số </label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Id" name="Id" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Id">Tập Phim Số</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Id" name="Id" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Id">Link</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Id" name="Id" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Id">Poster</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Id" name="Id" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="Id">Ghi Chú</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="Id" name="Id" type="text" value="" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-3 col-md-9">
+                            <input type="submit" class="btn btn-default" value="Lưu" style="width: 90px;height: 40px;  />
+                            <a href="#">@*<i class="fa fa-circle-o"></i>*@</a>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-3 col-md-9">
+                            @*<input type="submit" class="btn btn-default" value="Hủy" />*@
+                            <input type="submit" class="btn btn-default" value="Hủy" style="width: 90px;height: 40px;" />
+                            <a href="#">@*<i class="fa fa-circle-o"></i>*@</a>
+                        </div>
+                    </div>
+
+
+                </form>
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+    @*<script src="/Scripts/jquery-1.10.2.js"></script>
+
+        <script src="/Scripts/bootstrap.js"></script>
+        <script src="/Scripts/respond.js"></script>
+
+        <link href="/Content/css/jquery-ui.css" rel="stylesheet" />
+        <script src="/Content/js/jquery-ui.js"></script>
+
+        <script src="/Scripts/jquery.validate.js"></script>
+        <script src="/Scripts/jquery.validate.unobtrusive.js"></script>*@
+
+    <script src="~/Areas/assets/Themphim/js/jquery-1.10.2.js"></script>
+
+    <script src="~/Areas/assets/Themphim/js/bootstrap.js"></script>
+    <script src="~/Areas/assets/Themphim/js/respond.js"></script>
+
+    <link href="~/Areas/assets/Themphim/css/jquery-ui.css" rel="stylesheet" />
+    <script src="~/Areas/assets/Themphim/js/jquery-ui.js"></script>
+
+    <script src="~/Areas/assets/Themphim/js/jquery.validate.js"></script>
+    <script src="~/Areas/assets/Themphim/js/jquery.validate.unobtrusive.js"></script>
+
+
+    <script>
+        $(function () {
+            $("#search").autocomplete({
+                source: "/Home/Search",
+                minLength: 2
+            });
+        })
+    </script>
+
+    <!-- Visual Studio Browser Link -->
+    <script type="application/json" id="__browserLink_initializationData">
+        {"appName":"Chrome","requestId":"c6a3676a06194823b649b30788f67419"}
+    </script>
+    <script type="text/javascript" src="https://localhost:9160/feb0057f1f1d4a17a02815e5108e6d61/browserLink" async="async"></script>
+    <!-- End Browser Link -->
+
+</body>
+</html>
+

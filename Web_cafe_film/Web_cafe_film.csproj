@@ -1,0 +1,1069 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{63BFD1A7-FB24-43D1-9DB2-1FEDD80A53CE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web_cafe_film</RootNamespace>
+    <AssemblyName>Web_cafe_film</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.1.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.1.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.1.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.1.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Code\SessionHelper.cs" />
+    <Compile Include="Areas\Admin\Code\UserSesssion.cs" />
+    <Compile Include="Areas\Admin\Controllers\AccountController.cs" />
+    <Compile Include="Areas\Admin\Controllers\DanhSachController.cs" />
+    <Compile Include="Areas\Admin\Controllers\DoanhThuController.cs" />
+    <Compile Include="Areas\Admin\Controllers\EmployeeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\AdminController.cs" />
+    <Compile Include="Areas\Admin\Controllers\LoginAdminController.cs" />
+    <Compile Include="Areas\Admin\Controllers\QuanLyPhimController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ThemPhimController.cs" />
+    <Compile Include="Areas\Admin\Controllers\UserController.cs" />
+    <Compile Include="Areas\Admin\Models\LoginModel.cs" />
+    <Compile Include="Areas\Admin\SoBanGhi.cs" />
+    <Compile Include="Controllers\allMovieController.cs" />
+    <Compile Include="Controllers\DangKyController.cs" />
+    <Compile Include="Controllers\DangNhapController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LayOutController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\MovieDetails1Controller.cs" />
+    <Compile Include="Controllers\MovieDetails2Controller.cs" />
+    <Compile Include="Controllers\MovieDetailsController.cs" />
+    <Compile Include="Controllers\TaiKhoanController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Account.cs">
+      <DependentUpon>WebsiteCafeFilmModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Category.cs">
+      <DependentUpon>WebsiteCafeFilmModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Code\SessionHelper.cs" />
+    <Compile Include="Models\Code\UserSesssion.cs" />
+    <Compile Include="Models\DangNhapModel.cs" />
+    <Compile Include="Models\DBConnection.cs" />
+    <Compile Include="Models\DetailMovie.cs">
+      <DependentUpon>WebsiteCafeFilmModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DoanhThu.cs">
+      <DependentUpon>WebsiteCafeFilmModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Employee.cs">
+      <DependentUpon>WebsiteCafeFilmModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LoginThanhVienModel.cs" />
+    <Compile Include="Models\Movie.cs">
+      <DependentUpon>WebsiteCafeFilmModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MovieSuggest.cs">
+      <DependentUpon>WebsiteCafeFilmModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MovieUser.cs">
+      <DependentUpon>WebsiteCafeFilmModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Occupation.cs">
+      <DependentUpon>WebsiteCafeFilmModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PhimChuaKiemDuyet.cs">
+      <DependentUpon>WebsiteCafeFilmModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\prd_MovieList_All_Result.cs">
+      <DependentUpon>WebsiteCafeFilmModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RatingOfMovie.cs">
+      <DependentUpon>WebsiteCafeFilmModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TaiKhoanViewModel.cs" />
+    <Compile Include="Models\ThanhVien.cs">
+      <DependentUpon>WebsiteCafeFilmModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\WebsiteCafeFilmModel1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WebsiteCafeFilmModel1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\WebsiteCafeFilmModel1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WebsiteCafeFilmModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\WebsiteCafeFilmModel1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WebsiteCafeFilmModel1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+    <Compile Include="ThuatToan\ContainerProvider.cs" />
+    <Compile Include="ThuatToan\Contracts\IApriori.cs" />
+    <Compile Include="ThuatToan\Contracts\ISorter.cs" />
+    <Compile Include="ThuatToan\Data\Bang1.cs" />
+    <Compile Include="ThuatToan\Data\Bang2.cs" />
+    <Compile Include="ThuatToan\DBConnection.cs" />
+    <Compile Include="ThuatToan\Entities\Item.cs" />
+    <Compile Include="ThuatToan\Entities\Output.cs" />
+    <Compile Include="ThuatToan\Entities\Rule.cs" />
+    <Compile Include="ThuatToan\GlobalVariables.cs" />
+    <Compile Include="ThuatToan\Implementation\Apriori.cs" />
+    <Compile Include="ThuatToan\Implementation\Sorter.cs" />
+    <Compile Include="ThuatToan\IndexedDictionary.cs" />
+    <Compile Include="ThuatToan\ReadWriteFile.cs" />
+    <Compile Include="ThuatToan\TextDatabase\ReturnTable.cs" />
+    <Compile Include="ThuatToan\TextDatabase\Table1.cs" />
+    <Compile Include="ThuatToan\TextDatabase\Table2.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Animation\diamondblue.gif" />
+    <Content Include="Areas\assets\DoanhThu\AdminLTE.min.css" />
+    <Content Include="Areas\assets\DoanhThu\app.min.js" />
+    <Content Include="Areas\assets\DoanhThu\bootstrap.min.css" />
+    <Content Include="Areas\assets\DoanhThu\bootstrap.min.js" />
+    <Content Include="Areas\assets\DoanhThu\demo.js" />
+    <Content Include="Areas\assets\DoanhThu\fastclick.js" />
+    <Content Include="Areas\assets\DoanhThu\font-awesome.min.css" />
+    <Content Include="Areas\assets\DoanhThu\html5shiv.min.js" />
+    <Content Include="Areas\assets\DoanhThu\ionicons.min.css" />
+    <Content Include="Areas\assets\DoanhThu\jquery-2.2.3.min.js" />
+    <Content Include="Areas\assets\DoanhThu\morris.css" />
+    <Content Include="Areas\assets\DoanhThu\morris.min.js" />
+    <Content Include="Areas\assets\DoanhThu\raphael-min.js" />
+    <Content Include="Areas\assets\DoanhThu\respond.min.js" />
+    <Content Include="Areas\assets\DoanhThu\_all-skins.min.css" />
+    <Content Include="Areas\assets\Login\Admin.css" />
+    <Content Include="Areas\assets\Login\bootstrap.css" />
+    <Content Include="Areas\assets\Login\bootstrap.min.js" />
+    <Content Include="Areas\assets\Login\css\AdminLTE.min.css" />
+    <Content Include="Areas\assets\Login\css\blue.css" />
+    <Content Include="Areas\assets\Login\css\ionicons.min.css" />
+    <Content Include="Areas\assets\Login\font-awesome.css" />
+    <Content Include="Areas\assets\Login\jquery-1.10.2.js" />
+    <Content Include="Areas\assets\Login\jquery.metisMenu.js" />
+    <Content Include="Areas\assets\Login\js\bootstrap.min.js" />
+    <Content Include="Areas\assets\Login\js\icheck.min.js" />
+    <Content Include="Areas\assets\Login\js\jquery-2.2.3.min.js" />
+    <Content Include="Areas\assets\Login\main-style.css" />
+    <Content Include="Areas\assets\Login\pace-theme-big-counter.css" />
+    <Content Include="Areas\assets\Login\style.css" />
+    <Content Include="Areas\assets\Shared\css\AdminLTE.min.css" />
+    <Content Include="Areas\assets\Shared\css\blue.css" />
+    <Content Include="Areas\assets\Shared\css\bootstrap.min-3-3-7.css" />
+    <Content Include="Areas\assets\Login\css\bootstrap.min.css" />
+    <Content Include="Areas\assets\Shared\css\bootstrap.min.css" />
+    <Content Include="Areas\assets\Shared\css\bootstrap3-wysihtml5.min.css" />
+    <Content Include="Areas\assets\Shared\css\datepicker3.css" />
+    <Content Include="Areas\assets\Shared\css\daterangepicker.css" />
+    <Content Include="Areas\assets\Shared\css\font-awesome.min-4-5-0.css" />
+    <Content Include="Areas\assets\Login\css\font-awesome.min.css" />
+    <Content Include="Areas\assets\Shared\css\font-awesome.min.css" />
+    <Content Include="Areas\assets\Shared\css\ionicons.min-v2-0-0.css" />
+    <Content Include="Areas\assets\Shared\css\ionicons.min.css" />
+    <Content Include="Areas\assets\Shared\css\jquery-jvectormap-1.2.2.css" />
+    <Content Include="Areas\assets\Shared\css\morris.css" />
+    <Content Include="Areas\assets\Shared\js\app.min.js" />
+    <Content Include="Areas\assets\Shared\js\bootstrap-datepicker.js" />
+    <Content Include="Areas\assets\Shared\js\bootstrap.min.js" />
+    <Content Include="Areas\assets\Shared\js\bootstrap3-wysihtml5.all.min.js" />
+    <Content Include="Areas\assets\Shared\js\dashboard.js" />
+    <Content Include="Areas\assets\Shared\js\daterangepicker.js" />
+    <Content Include="Areas\assets\Shared\js\demo.js" />
+    <Content Include="Areas\assets\Shared\js\fastclick.js" />
+    <Content Include="Areas\assets\Shared\js\jquery-2.2.3.min.js" />
+    <Content Include="Areas\assets\Shared\js\jquery-jvectormap-1.2.2.min.js" />
+    <Content Include="Areas\assets\Shared\js\jquery-jvectormap-world-mill-en.js" />
+    <Content Include="Areas\assets\Shared\js\jquery-ui.min.js" />
+    <Content Include="Areas\assets\Shared\js\jquery.knob.js" />
+    <Content Include="Areas\assets\Shared\js\jquery.slimscroll.min.js" />
+    <Content Include="Areas\assets\Shared\js\jquery.sparkline.min.js" />
+    <Content Include="Areas\assets\Shared\js\moment.min.js" />
+    <Content Include="Areas\assets\Shared\js\morris.min.js" />
+    <Content Include="Areas\assets\Shared\js\raphael-min.js" />
+    <Content Include="Areas\assets\Themphim\css\bootstrap.css" />
+    <Content Include="Areas\assets\Themphim\css\jquery-ui.css" />
+    <Content Include="Areas\assets\Themphim\css\nn-style.css" />
+    <Content Include="Areas\assets\Themphim\css\WidthOnTable.css" />
+    <Content Include="Areas\assets\Themphim\js\bootstrap.js" />
+    <Content Include="Areas\assets\Themphim\js\jquery-1.10.2.js" />
+    <Content Include="Areas\assets\Themphim\js\jquery-ui.js" />
+    <Content Include="Areas\assets\Themphim\js\jquery.validate.js" />
+    <Content Include="Areas\assets\Themphim\js\jquery.validate.unobtrusive.js" />
+    <Content Include="Areas\assets\Themphim\js\modernizr-2.6.2.js" />
+    <Content Include="Areas\assets\Themphim\js\respond.js" />
+    <Content Include="Areas\assets\User\css\AdminLTE.min.css" />
+    <Content Include="Areas\assets\User\css\bootstrap.min.css" />
+    <Content Include="Areas\assets\User\css\dataTables.bootstrap.css" />
+    <Content Include="Areas\assets\User\css\font-awesome.min-4-5-0.css" />
+    <Content Include="Areas\assets\User\css\font-awesome.min.css" />
+    <Content Include="Areas\assets\User\css\ionicons.min-v2-0-0.css" />
+    <Content Include="Areas\assets\User\css\ionicons.min.css" />
+    <Content Include="Areas\assets\User\css\_all-skins.min.css" />
+    <Content Include="Areas\assets\User\js\app.min.js" />
+    <Content Include="Areas\assets\User\js\bootstrap.min.js" />
+    <Content Include="Areas\assets\User\js\dataTables.bootstrap.js" />
+    <Content Include="Areas\assets\User\js\dataTables.bootstrap.min.js" />
+    <Content Include="Areas\assets\User\js\demo.js" />
+    <Content Include="Areas\assets\User\js\fastclick.js" />
+    <Content Include="Areas\assets\User\js\html5shiv.min.js" />
+    <Content Include="Areas\assets\User\js\jquery-2.2.3.min.js" />
+    <Content Include="Areas\assets\User\js\jquery.dataTables.min.js" />
+    <Content Include="Areas\assets\User\js\jquery.slimscroll.min.js" />
+    <Content Include="Areas\assets\User\js\respond.min.js" />
+    <Content Include="Areas\Images\AdminLTE\boxed-bg.jpg" />
+    <Content Include="Areas\Images\AdminLTE\boxed-bg.png" />
+    <Content Include="Areas\Images\AdminLTE\imageLogin.jpg" />
+    <Content Include="Areas\Images\AdminLTE\line%402x.png" />
+    <Content Include="Areas\Images\AdminLTE\line.png" />
+    <Content Include="Areas\Images\dist\img\avatar.png" />
+    <Content Include="Areas\Images\dist\img\avatar04.png" />
+    <Content Include="Areas\Images\dist\img\avatar2.png" />
+    <Content Include="Areas\Images\dist\img\avatar3.png" />
+    <Content Include="Areas\Images\dist\img\avatar5.png" />
+    <Content Include="Areas\Images\dist\img\boxed-bg.jpg" />
+    <Content Include="Areas\Images\dist\img\boxed-bg.png" />
+    <Content Include="Areas\Images\dist\img\credit\american-express.png" />
+    <Content Include="Areas\Images\dist\img\credit\cirrus.png" />
+    <Content Include="Areas\Images\dist\img\credit\mastercard.png" />
+    <Content Include="Areas\Images\dist\img\credit\mestro.png" />
+    <Content Include="Areas\Images\dist\img\credit\paypal.png" />
+    <Content Include="Areas\Images\dist\img\credit\paypal2.png" />
+    <Content Include="Areas\Images\dist\img\credit\visa.png" />
+    <Content Include="Areas\Images\dist\img\default-50x50.gif" />
+    <Content Include="Areas\Images\dist\img\icons.png" />
+    <Content Include="Areas\Images\dist\img\photo1.png" />
+    <Content Include="Areas\Images\dist\img\photo2.png" />
+    <Content Include="Areas\Images\dist\img\photo3.jpg" />
+    <Content Include="Areas\Images\dist\img\photo4.jpg" />
+    <Content Include="Areas\Images\dist\img\user1-128x128.jpg" />
+    <Content Include="Areas\Images\dist\img\user2-160x160.jpg" />
+    <Content Include="Areas\Images\dist\img\user3-128x128.jpg" />
+    <Content Include="Areas\Images\dist\img\user4-128x128.jpg" />
+    <Content Include="Areas\Images\dist\img\user5-128x128.jpg" />
+    <Content Include="Areas\Images\dist\img\user6-128x128.jpg" />
+    <Content Include="Areas\Images\dist\img\user7-128x128.jpg" />
+    <Content Include="Areas\Images\dist\img\user8-128x128.jpg" />
+    <Content Include="Areas\Images\ImageLogin.jpg" />
+    <Content Include="Areas\Images\Images\1.jpg" />
+    <Content Include="Areas\Images\Images\10.jpg" />
+    <Content Include="Areas\Images\Images\11.jpg" />
+    <Content Include="Areas\Images\Images\12.jpg" />
+    <Content Include="Areas\Images\Images\13.jpg" />
+    <Content Include="Areas\Images\Images\14.jpg" />
+    <Content Include="Areas\Images\Images\15.jpg" />
+    <Content Include="Areas\Images\Images\16.jpg" />
+    <Content Include="Areas\Images\Images\17.jpg" />
+    <Content Include="Areas\Images\Images\18.jpg" />
+    <Content Include="Areas\Images\Images\19.jpg" />
+    <Content Include="Areas\Images\Images\2.jpg" />
+    <Content Include="Areas\Images\Images\20.jpg" />
+    <Content Include="Areas\Images\Images\3.jpg" />
+    <Content Include="Areas\Images\Images\4.jpg" />
+    <Content Include="Areas\Images\Images\5.jpg" />
+    <Content Include="Areas\Images\Images\6.jpg" />
+    <Content Include="Areas\Images\Images\7.jpg" />
+    <Content Include="Areas\Images\Images\8.jpg" />
+    <Content Include="Areas\Images\Images\9.jpg" />
+    <Content Include="Areas\Images\Pikachu.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\bg-video.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\boots.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\bra.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\first-slide.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\movie-sample1.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\movie-sample2.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\movie-sample3.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\movie-sample4.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\movie-sample5.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\movie-sample6.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\movie-time1.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\movie-time10.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\movie-time11.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\movie-time12.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\movie-time13.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\movie-time14.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\movie-time8.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\movie-time9.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\next-slide.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\post-annual.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\post-awards.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\post-thor.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\price-pattern.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\sale.jpg" />
+    <Content Include="Areas\Images\Themmoiphim\sport.jpg" />
+    <Content Include="Content\.js\analytics.js" />
+    <Content Include="Content\.js\bootstrap-select.min.js" />
+    <Content Include="Content\.js\bootstrap.min.js" />
+    <Content Include="Content\.js\dropzone.js" />
+    <Content Include="Content\.js\head-204490a7a6656cd4a9ab89c4d525870a.js" />
+    <Content Include="Content\.js\index-4a2ec6a62750897545320b2ae519a4a8.js" />
+    <Content Include="Content\.js\index-57cb18b92a4f2d63de44c1ddc92e5bc6.js" />
+    <Content Include="Content\.js\index-5c6c53faf8d5e986c37ba556eb35ffaa.js" />
+    <Content Include="Content\.js\jquery-2.1.4.min.js" />
+    <Content Include="Content\.js\jquery.jscroll.min.js" />
+    <Content Include="Content\.js\jquery.magnific-popup.min.js" />
+    <Content Include="Content\.js\mediasource-A249085-fc90-4e98-904f-95b25288c53b1-c-4415.min.js" />
+    <Content Include="Content\.js\theme.js" />
+    <Content Include="Content\allMovie\bootstrap-select.min.css" />
+    <Content Include="Content\allMovie\bootstrap-select.min.js" />
+    <Content Include="Content\allMovie\bootstrap-theme.min.css" />
+    <Content Include="Content\allMovie\bootstrap.min.css" />
+    <Content Include="Content\allMovie\bootstrap.min.js" />
+    <Content Include="Content\allMovie\dropzone.js" />
+    <Content Include="Content\allMovie\font-awesome.min.css" />
+    <Content Include="Content\allMovie\jquery-2.1.4.min.js" />
+    <Content Include="Content\allMovie\jquery.jscroll.min.js" />
+    <Content Include="Content\allMovie\jquery.magnific-popup.min.js" />
+    <Content Include="Content\allMovie\magnific-popup.css" />
+    <Content Include="Content\allMovie\responsive.css" />
+    <Content Include="Content\allMovie\style.css" />
+    <Content Include="Content\allMovie\theme.js" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\DangKy\bootstrap.css" />
+    <Content Include="Content\DangKy\bootstrap.js" />
+    <Content Include="Content\DangKy\jquery-1.10.2.js" />
+    <Content Include="Content\DangKy\modernizr-2.6.2.js" />
+    <Content Include="Content\DangKy\respond.js" />
+    <Content Include="Content\DangKy\site.css" />
+    <Content Include="Content\DangNhap\DangNhapCss.css" />
+    <Content Include="Content\MovieDetail\css.css" />
+    <Content Include="Content\MovieDetail\css\bootstrap-theme.min.css" />
+    <Content Include="Content\MovieDetail\css\bootstrap.min.css" />
+    <Content Include="Content\MovieDetail\css\default\style.css" />
+    <Content Include="Content\MovieDetail\css\font-awesome.min.css" />
+    <Content Include="Content\MovieDetail\css\magnific-popup.css" />
+    <Content Include="Content\MovieDetail\css\responsive\responsive.css" />
+    <Content Include="Content\MovieDetail\favicon\android-icon-192x192.png" />
+    <Content Include="Content\MovieDetail\favicon\apple-icon-114x114.png" />
+    <Content Include="Content\MovieDetail\favicon\apple-icon-120x120.png" />
+    <Content Include="Content\MovieDetail\favicon\apple-icon-144x144.png" />
+    <Content Include="Content\MovieDetail\favicon\apple-icon-152x152.png" />
+    <Content Include="Content\MovieDetail\favicon\apple-icon-180x180.png" />
+    <Content Include="Content\MovieDetail\favicon\apple-icon-57x57.png" />
+    <Content Include="Content\MovieDetail\favicon\apple-icon-60x60.png" />
+    <Content Include="Content\MovieDetail\favicon\apple-icon-72x72.png" />
+    <Content Include="Content\MovieDetail\favicon\apple-icon-76x76.png" />
+    <Content Include="Content\MovieDetail\favicon\favicon-16x16.png" />
+    <Content Include="Content\MovieDetail\favicon\favicon-32x32.png" />
+    <Content Include="Content\MovieDetail\favicon\favicon-96x96.png" />
+    <Content Include="Content\MovieDetail\favicon\ms-icon-144x144.png" />
+    <Content Include="Content\MovieDetail\fonts\glyphicons-halflings-regular.html" />
+    <Content Include="Content\MovieDetail\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\MovieDetail\images-tomandjerry\1.jpg" />
+    <Content Include="Content\MovieDetail\images-tomandjerry\10.jpg" />
+    <Content Include="Content\MovieDetail\images-tomandjerry\11.jpg" />
+    <Content Include="Content\MovieDetail\images-tomandjerry\12.jpg" />
+    <Content Include="Content\MovieDetail\images-tomandjerry\13.jpg" />
+    <Content Include="Content\MovieDetail\images-tomandjerry\14.jpg" />
+    <Content Include="Content\MovieDetail\images-tomandjerry\15.jpg" />
+    <Content Include="Content\MovieDetail\images-tomandjerry\16.jpg" />
+    <Content Include="Content\MovieDetail\images-tomandjerry\2.jpg" />
+    <Content Include="Content\MovieDetail\images-tomandjerry\3.jpg" />
+    <Content Include="Content\MovieDetail\images-tomandjerry\4.jpg" />
+    <Content Include="Content\MovieDetail\images-tomandjerry\5.jpg" />
+    <Content Include="Content\MovieDetail\images-tomandjerry\6.jpg" />
+    <Content Include="Content\MovieDetail\images-tomandjerry\7.jpg" />
+    <Content Include="Content\MovieDetail\images-tomandjerry\8.jpg" />
+    <Content Include="Content\MovieDetail\images-tomandjerry\9.jpg" />
+    <Content Include="Content\MovieDetail\images\16942_Preloader_10.gif" />
+    <Content Include="Content\MovieDetail\images\author\cover.jpg" />
+    <Content Include="Content\MovieDetail\images\author\dropdown-arrow2-open.png" />
+    <Content Include="Content\MovieDetail\images\author\feature_interview.jpg" />
+    <Content Include="Content\MovieDetail\images\author\feature_interview2.jpg" />
+    <Content Include="Content\MovieDetail\images\author\profile.jpg" />
+    <Content Include="Content\MovieDetail\images\blog\widget\1.jpg" />
+    <Content Include="Content\MovieDetail\images\blog\widget\2.jpg" />
+    <Content Include="Content\MovieDetail\images\btn\facebook-login.png" />
+    <Content Include="Content\MovieDetail\images\btn\gmail-login.png" />
+    <Content Include="Content\MovieDetail\images\btn\twitter-login.png" />
+    <Content Include="Content\MovieDetail\images\follow\1.jpg" />
+    <Content Include="Content\MovieDetail\images\follow\2.jpg" />
+    <Content Include="Content\MovieDetail\images\follow\3.jpg" />
+    <Content Include="Content\MovieDetail\images\follow\4.jpg" />
+    <Content Include="Content\MovieDetail\images\footer-logo.png" />
+    <Content Include="Content\MovieDetail\images\icons\audio-headphone.png" />
+    <Content Include="Content\MovieDetail\images\icons\audio.png" />
+    <Content Include="Content\MovieDetail\images\icons\camera-active.png" />
+    <Content Include="Content\MovieDetail\images\icons\camera.png" />
+    <Content Include="Content\MovieDetail\images\icons\cat.png" />
+    <Content Include="Content\MovieDetail\images\icons\chart-active.png" />
+    <Content Include="Content\MovieDetail\images\icons\chart.png" />
+    <Content Include="Content\MovieDetail\images\icons\close.png" />
+    <Content Include="Content\MovieDetail\images\icons\dropdown-arrow-active.png" />
+    <Content Include="Content\MovieDetail\images\icons\dropdown-arrow-hover.png" />
+    <Content Include="Content\MovieDetail\images\icons\dropdown-arrow.png" />
+    <Content Include="Content\MovieDetail\images\icons\dropdown-arrow2.png" />
+    <Content Include="Content\MovieDetail\images\icons\extra-pages-hover.png" />
+    <Content Include="Content\MovieDetail\images\icons\extra-pages.png" />
+    <Content Include="Content\MovieDetail\images\icons\home-variation-hover.png" />
+    <Content Include="Content\MovieDetail\images\icons\home-variation.png" />
+    <Content Include="Content\MovieDetail\images\icons\login-hover.png" />
+    <Content Include="Content\MovieDetail\images\icons\login.png" />
+    <Content Include="Content\MovieDetail\images\icons\search.png" />
+    <Content Include="Content\MovieDetail\images\icons\social\1.jpg" />
+    <Content Include="Content\MovieDetail\images\icons\social\10.jpg" />
+    <Content Include="Content\MovieDetail\images\icons\social\11.jpg" />
+    <Content Include="Content\MovieDetail\images\icons\social\12.jpg" />
+    <Content Include="Content\MovieDetail\images\icons\social\2.jpg" />
+    <Content Include="Content\MovieDetail\images\icons\social\3.jpg" />
+    <Content Include="Content\MovieDetail\images\icons\social\4.jpg" />
+    <Content Include="Content\MovieDetail\images\icons\social\5.jpg" />
+    <Content Include="Content\MovieDetail\images\icons\social\6.jpg" />
+    <Content Include="Content\MovieDetail\images\icons\social\7.jpg" />
+    <Content Include="Content\MovieDetail\images\icons\social\8.jpg" />
+    <Content Include="Content\MovieDetail\images\icons\social\9.jpg" />
+    <Content Include="Content\MovieDetail\images\icons\video-active.png" />
+    <Content Include="Content\MovieDetail\images\icons\video-menu-hover.png" />
+    <Content Include="Content\MovieDetail\images\icons\video-menu.png" />
+    <Content Include="Content\MovieDetail\images\icons\video.png" />
+    <Content Include="Content\MovieDetail\images\icons\views.png" />
+    <Content Include="Content\MovieDetail\images\logo.png" />
+    <Content Include="Content\MovieDetail\images\media\1.jpg" />
+    <Content Include="Content\MovieDetail\images\media\10.jpg" />
+    <Content Include="Content\MovieDetail\images\media\11.jpg" />
+    <Content Include="Content\MovieDetail\images\media\2.jpg" />
+    <Content Include="Content\MovieDetail\images\media\3.jpg" />
+    <Content Include="Content\MovieDetail\images\media\4.jpg" />
+    <Content Include="Content\MovieDetail\images\media\5.jpg" />
+    <Content Include="Content\MovieDetail\images\media\6.jpg" />
+    <Content Include="Content\MovieDetail\images\media\7.jpg" />
+    <Content Include="Content\MovieDetail\images\media\8.jpg" />
+    <Content Include="Content\MovieDetail\images\media\9.jpg" />
+    <Content Include="Content\MovieDetail\images\menu\1.jpg" />
+    <Content Include="Content\MovieDetail\images\menu\2.jpg" />
+    <Content Include="Content\MovieDetail\images\menu\3.jpg" />
+    <Content Include="Content\MovieDetail\images\menu\4.jpg" />
+    <Content Include="Content\MovieDetail\images\page-cover.jpg" />
+    <Content Include="Content\MovieDetail\images\play-btn-hover.png" />
+    <Content Include="Content\MovieDetail\images\play-btn.png" />
+    <Content Include="Content\MovieDetail\images\popular\1.jpg" />
+    <Content Include="Content\MovieDetail\images\popular\10.jpg" />
+    <Content Include="Content\MovieDetail\images\popular\11.jpg" />
+    <Content Include="Content\MovieDetail\images\popular\12.jpg" />
+    <Content Include="Content\MovieDetail\images\popular\13.jpg" />
+    <Content Include="Content\MovieDetail\images\popular\14.jpg" />
+    <Content Include="Content\MovieDetail\images\popular\15.jpg" />
+    <Content Include="Content\MovieDetail\images\popular\16.jpg" />
+    <Content Include="Content\MovieDetail\images\popular\2.jpg" />
+    <Content Include="Content\MovieDetail\images\popular\3.jpg" />
+    <Content Include="Content\MovieDetail\images\popular\4.jpg" />
+    <Content Include="Content\MovieDetail\images\popular\5.jpg" />
+    <Content Include="Content\MovieDetail\images\popular\6.jpg" />
+    <Content Include="Content\MovieDetail\images\popular\7.jpg" />
+    <Content Include="Content\MovieDetail\images\popular\8.jpg" />
+    <Content Include="Content\MovieDetail\images\popular\9.jpg" />
+    <Content Include="Content\MovieDetail\images\search.png" />
+    <Content Include="Content\MovieDetail\images\slide.jpg" />
+    <Content Include="Content\MovieDetail\js\bootstrap.min.js" />
+    <Content Include="Content\MovieDetail\js\dropzone.js" />
+    <Content Include="Content\MovieDetail\js\jquery-2.1.4.min.js" />
+    <Content Include="Content\MovieDetail\js\jquery.jscroll.min.js" />
+    <Content Include="Content\MovieDetail\js\jquery.magnific-popup.min.js" />
+    <Content Include="Content\MovieDetail\js\theme.js" />
+    <Content Include="Content\MovieDetail\vendors\bootstrap-select\css\bootstrap-select.min.css" />
+    <Content Include="Content\MovieDetail\vendors\bootstrap-select\js\bootstrap-select.min.js" />
+    <Content Include="Content\NguoiDungCssLayOut\bootstrap-select.min.css" />
+    <Content Include="Content\NguoiDungCssLayOut\bootstrap-theme.min.css" />
+    <Content Include="Content\NguoiDungCssLayOut\bootstrap.min.css" />
+    <Content Include="Content\NguoiDungCssLayOut\font-awesome.min.css" />
+    <Content Include="Content\NguoiDungCssLayOut\magnific-popup.css" />
+    <Content Include="Content\NguoiDungCssLayOut\responsive.css" />
+    <Content Include="Content\NguoiDungCssLayOut\style.css" />
+    <Content Include="Content\PagedList.css" />
+    <Content Include="Content\themes\base\accordion.css" />
+    <Content Include="Content\themes\base\all.css" />
+    <Content Include="Content\themes\base\autocomplete.css" />
+    <Content Include="Content\themes\base\base.css" />
+    <Content Include="Content\themes\base\button.css" />
+    <Content Include="Content\themes\base\core.css" />
+    <Content Include="Content\themes\base\datepicker.css" />
+    <Content Include="Content\themes\base\dialog.css" />
+    <Content Include="Content\themes\base\draggable.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_444444_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_555555_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_777620_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_777777_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\menu.css" />
+    <Content Include="Content\themes\base\progressbar.css" />
+    <Content Include="Content\themes\base\resizable.css" />
+    <Content Include="Content\themes\base\selectable.css" />
+    <Content Include="Content\themes\base\selectmenu.css" />
+    <Content Include="Content\themes\base\slider.css" />
+    <Content Include="Content\themes\base\sortable.css" />
+    <Content Include="Content\themes\base\spinner.css" />
+    <Content Include="Content\themes\base\tabs.css" />
+    <Content Include="Content\themes\base\theme.css" />
+    <Content Include="Content\themes\base\tooltip.css" />
+    <Content Include="Content\TrangChuCss.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Lady Gaga.jpg" />
+    <Content Include="LinkImage\Image\.gif\16942_Preloader_10.gif" />
+    <Content Include="LinkImage\Image\.gif\backblue.gif" />
+    <Content Include="LinkImage\Image\.gif\fade.gif" />
+    <Content Include="LinkImage\Image\.gif\pagination_loader-73736b3de249249088088e46fe59d88d.gif" />
+    <Content Include="LinkImage\Image\.jpg\1.jpg" />
+    <Content Include="LinkImage\Image\.jpg\10.jpg" />
+    <Content Include="LinkImage\Image\.jpg\11.jpg" />
+    <Content Include="LinkImage\Image\.jpg\12.jpg" />
+    <Content Include="LinkImage\Image\.jpg\13.jpg" />
+    <Content Include="LinkImage\Image\.jpg\14.jpg" />
+    <Content Include="LinkImage\Image\.jpg\15.jpg" />
+    <Content Include="LinkImage\Image\.jpg\16.jpg" />
+    <Content Include="LinkImage\Image\.jpg\2.jpg" />
+    <Content Include="LinkImage\Image\.jpg\3.jpg" />
+    <Content Include="LinkImage\Image\.jpg\4.jpg" />
+    <Content Include="LinkImage\Image\.jpg\5.jpg" />
+    <Content Include="LinkImage\Image\.jpg\6.jpg" />
+    <Content Include="LinkImage\Image\.jpg\7.jpg" />
+    <Content Include="LinkImage\Image\.jpg\8.jpg" />
+    <Content Include="LinkImage\Image\.jpg\9.jpg" />
+    <Content Include="LinkImage\Image\.jpg\cover.jpg" />
+    <Content Include="LinkImage\Image\.jpg\feature_interview.jpg" />
+    <Content Include="LinkImage\Image\.jpg\feature_interview2.jpg" />
+    <Content Include="LinkImage\Image\.jpg\page-cover.jpg" />
+    <Content Include="LinkImage\Image\.jpg\profile.jpg" />
+    <Content Include="LinkImage\Image\.jpg\slide.jpg" />
+    <Content Include="LinkImage\Image\.png\android-icon-192x192.png" />
+    <Content Include="LinkImage\Image\.png\apple-icon-114x114.png" />
+    <Content Include="LinkImage\Image\.png\apple-icon-120x120.png" />
+    <Content Include="LinkImage\Image\.png\apple-icon-144x144.png" />
+    <Content Include="LinkImage\Image\.png\apple-icon-152x152.png" />
+    <Content Include="LinkImage\Image\.png\apple-icon-180x180.png" />
+    <Content Include="LinkImage\Image\.png\apple-icon-57x57.png" />
+    <Content Include="LinkImage\Image\.png\apple-icon-60x60.png" />
+    <Content Include="LinkImage\Image\.png\apple-icon-72x72.png" />
+    <Content Include="LinkImage\Image\.png\apple-icon-76x76.png" />
+    <Content Include="LinkImage\Image\.png\audio-headphone.png" />
+    <Content Include="LinkImage\Image\.png\audio.png" />
+    <Content Include="LinkImage\Image\.png\camera-active.png" />
+    <Content Include="LinkImage\Image\.png\camera.png" />
+    <Content Include="LinkImage\Image\.png\cat.png" />
+    <Content Include="LinkImage\Image\.png\chart-active.png" />
+    <Content Include="LinkImage\Image\.png\chart.png" />
+    <Content Include="LinkImage\Image\.png\close.png" />
+    <Content Include="LinkImage\Image\.png\dropdown-arrow-active.png" />
+    <Content Include="LinkImage\Image\.png\dropdown-arrow-hover.png" />
+    <Content Include="LinkImage\Image\.png\dropdown-arrow.png" />
+    <Content Include="LinkImage\Image\.png\dropdown-arrow2-open.png" />
+    <Content Include="LinkImage\Image\.png\dropdown-arrow2.png" />
+    <Content Include="LinkImage\Image\.png\extra-pages-hover.png" />
+    <Content Include="LinkImage\Image\.png\extra-pages.png" />
+    <Content Include="LinkImage\Image\.png\facebook-login.png" />
+    <Content Include="LinkImage\Image\.png\favicon-16x16.png" />
+    <Content Include="LinkImage\Image\.png\favicon-32x32.png" />
+    <Content Include="LinkImage\Image\.png\favicon-96x96.png" />
+    <Content Include="LinkImage\Image\.png\footer-logo.png" />
+    <Content Include="LinkImage\Image\.png\gmail-login.png" />
+    <Content Include="LinkImage\Image\.png\home-variation-hover.png" />
+    <Content Include="LinkImage\Image\.png\home-variation.png" />
+    <Content Include="LinkImage\Image\.png\login-hover.png" />
+    <Content Include="LinkImage\Image\.png\login.png" />
+    <Content Include="LinkImage\Image\.png\logo.png" />
+    <Content Include="LinkImage\Image\.png\ms-icon-144x144.png" />
+    <Content Include="LinkImage\Image\.png\play-btn-hover.png" />
+    <Content Include="LinkImage\Image\.png\play-btn.png" />
+    <Content Include="LinkImage\Image\.png\search.png" />
+    <Content Include="LinkImage\Image\.png\twitter-login.png" />
+    <Content Include="LinkImage\Image\.png\video-active.png" />
+    <Content Include="LinkImage\Image\.png\video-menu-hover.png" />
+    <Content Include="LinkImage\Image\.png\video-menu.png" />
+    <Content Include="LinkImage\Image\.png\video.png" />
+    <Content Include="LinkImage\Image\.png\views.png" />
+    <Content Include="LinkImage\Image\Anh\1.jpg" />
+    <Content Include="LinkImage\Image\Anh\10.jpg" />
+    <Content Include="LinkImage\Image\Anh\11.jpg" />
+    <Content Include="LinkImage\Image\Anh\12.jpg" />
+    <Content Include="LinkImage\Image\Anh\13.jpg" />
+    <Content Include="LinkImage\Image\Anh\14.jpg" />
+    <Content Include="LinkImage\Image\Anh\15.jpg" />
+    <Content Include="LinkImage\Image\Anh\16.jpg" />
+    <Content Include="LinkImage\Image\Anh\2.jpg" />
+    <Content Include="LinkImage\Image\Anh\3.jpg" />
+    <Content Include="LinkImage\Image\Anh\4.jpg" />
+    <Content Include="LinkImage\Image\doremon.jpg" />
+    <Content Include="LinkImage\Image\hinh-anh-pikachu-5.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\1.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\10.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\11.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\12.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\13.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\14.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\15.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\16.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\17.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\18.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\19.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\2.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\20.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\3.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\4.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\5.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\6.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\7.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\8.jpg" />
+    <Content Include="LinkImage\Image\ImageMovie\9.jpg" />
+    <Content Include="LinkImage\Image\Layout\7AnhEmHoLo.jpg" />
+    <Content Include="LinkImage\Image\Layout\anh-gau-truc-panda-de-thuong-5.jpg" />
+    <Content Include="LinkImage\Image\Layout\Detective-Conan-4.jpg" />
+    <Content Include="LinkImage\Image\Layout\Doremon.jpg" />
+    <Content Include="LinkImage\Image\Layout\fulltoystory-C1sh-nm-DS.jpg" />
+    <Content Include="LinkImage\Image\Layout\KeCuopMatTrang1.jpg" />
+    <Content Include="LinkImage\Image\Layout\KeCuopMatTrang2.jpg" />
+    <Content Include="LinkImage\Image\Layout\OnePiece.jpg" />
+    <Content Include="LinkImage\Image\Layout\OnePiece2.jpg" />
+    <Content Include="LinkImage\Image\Layout\shinichi-conan-1.jpg" />
+    <Content Include="LinkImage\Image\Layout\thuythumattrang.png" />
+    <Content Include="LinkImage\Image\Layout\TomAndJerry.jpg" />
+    <Content Include="LinkImage\Image\Layout\ToyStory2pixar1169661024768.jpg" />
+    <Content Include="LinkImage\Image\nhombandoremon.jpg" />
+    <Content Include="LinkImage\Image\RECENT UPLOADS\1.jpg" />
+    <Content Include="LinkImage\Image\RECENT UPLOADS\10.jpg" />
+    <Content Include="LinkImage\Image\RECENT UPLOADS\11.jpg" />
+    <Content Include="LinkImage\Image\RECENT UPLOADS\2.jpg" />
+    <Content Include="LinkImage\Image\RECENT UPLOADS\3.jpg" />
+    <Content Include="LinkImage\Image\RECENT UPLOADS\4.jpg" />
+    <Content Include="LinkImage\Image\RECENT UPLOADS\5.jpg" />
+    <Content Include="LinkImage\Image\RECENT UPLOADS\6.jpg" />
+    <Content Include="LinkImage\Image\RECENT UPLOADS\7.jpg" />
+    <Content Include="LinkImage\Image\RECENT UPLOADS\8.jpg" />
+    <Content Include="LinkImage\Image\RECENT UPLOADS\9.jpg" />
+    <Content Include="LinkImage\Image\tomandjerrry.png" />
+    <Content Include="LinkImage\1.jpg" />
+    <Content Include="LinkImage\10.jpg" />
+    <Content Include="LinkImage\11.jpg" />
+    <Content Include="LinkImage\12.jpg" />
+    <Content Include="LinkImage\13.jpg" />
+    <Content Include="LinkImage\14.jpg" />
+    <Content Include="LinkImage\15.jpg" />
+    <Content Include="LinkImage\16.jpg" />
+    <Content Include="LinkImage\17.jpg" />
+    <Content Include="LinkImage\18.jpg" />
+    <Content Include="LinkImage\19.jpg" />
+    <Content Include="LinkImage\2.jpg" />
+    <Content Include="LinkImage\20.jpg" />
+    <Content Include="LinkImage\3.jpg" />
+    <Content Include="LinkImage\4.jpg" />
+    <Content Include="LinkImage\5.jpg" />
+    <Content Include="LinkImage\6.jpg" />
+    <Content Include="LinkImage\7.jpg" />
+    <Content Include="LinkImage\8.jpg" />
+    <Content Include="LinkImage\9.jpg" />
+    <Content Include="Models\WebsiteCafeFilmModel1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>WebsiteCafeFilmModel1.edmx</DependentUpon>
+      <LastGenOutput>WebsiteCafeFilmModel1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\WebsiteCafeFilmModel1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>WebsiteCafeFilmModel1.edmx</DependentUpon>
+      <LastGenOutput>WebsiteCafeFilmModel1.cs</LastGenOutput>
+    </Content>
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_LeftMenu.cshtml" />
+    <Content Include="Areas\Admin\Views\LoginAdmin\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\User\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\User\UserPartital.cshtml" />
+    <Content Include="Areas\Admin\Views\LoginAdmin\AdminLogin.cshtml" />
+    <Content Include="Areas\Admin\Views\Account\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Employee\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Account\AccountPartial.cshtml" />
+    <Content Include="Areas\Admin\Views\Employee\EmployeePartial.cshtml" />
+    <Content Include="Areas\Admin\Views\DanhSach\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ThemPhim_Bỏ\Index_Bo.cshtml" />
+    <Content Include="Areas\Admin\Views\DanhSach\DanhSachPartial.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\DanhSachPartial.cshtml" />
+    <Content Include="Areas\Admin\Views\DanhSach\DanhSachParttial2.cshtml" />
+    <Content Include="Areas\Admin\Views\ThemPhim_Bỏ\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\ThemPhim_Bỏ\AddMovie.cshtml" />
+    <Content Include="Areas\Admin\Views\ThemPhim_Bỏ\Index_Sai.cshtml" />
+    <Content Include="Content\DangKy\browserLink" />
+    <Content Include="Content\MovieDetail\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\MovieDetail\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\MovieDetail\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\MovieDetail\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="Content\MovieDetail\manifest.json" />
+    <Content Include="Content\MovieDetail\favicon\manifest.json" />
+    <Content Include="Areas\Admin\Views\DoanhThu\Index.cshtml" />
+    <Content Include="Animation\diamondblue.ani" />
+    <Content Include="Areas\Admin\Views\QuanLyPhim\Index.cshtml" />
+    <Compile Include="Models\Metadata\Movie.metadata.cs" />
+    <Content Include="Areas\Admin\Views\QuanLyPhim\ThemMoi.cshtml" />
+    <Content Include="Areas\Admin\Views\QuanLyPhim\ChinhSua.cshtml" />
+    <Content Include="Areas\Admin\Views\QuanLyPhim\HienThi.cshtml" />
+    <Content Include="Areas\Admin\Views\QuanLyPhim\Xoa.cshtml" />
+    <EntityDeploy Include="Models\WebsiteCafeFilmModel1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>WebsiteCafeFilmModel1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\WebsiteCafeFilmModel1.edmx.diagram">
+      <DependentUpon>WebsiteCafeFilmModel1.edmx</DependentUpon>
+    </Content>
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-ui-1.12.1.js" />
+    <Content Include="Scripts\jquery-ui-1.12.1.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Views\html\13071039.html" />
+    <Content Include="Views\html\130710391135.html" />
+    <Content Include="Views\html\13071039cc8a.html" />
+    <Content Include="Views\html\category.html" />
+    <Content Include="Views\html\comments.html" />
+    <Content Include="Views\html\comments2679.html" />
+    <Content Include="Views\html\comments4658.html" />
+    <Content Include="Views\html\glyphicons-halflings-regular.html" />
+    <Content Include="Views\html\index.html" />
+    <Content Include="Views\html\index2.html" />
+    <Content Include="Views\html\index3.html" />
+    <Content Include="Views\html\index4.html" />
+    <Content Include="Views\html\linkid.html" />
+    <Content Include="Views\html\more-uploads-1.html" />
+    <Content Include="Views\html\more-uploads-2.html" />
+    <Content Include="Views\html\page-author.html" />
+    <Content Include="Views\html\signup-popup.html" />
+    <Content Include="Views\html\signup.html" />
+    <Content Include="Views\html\single-video.html" />
+    <Content Include="Views\html\support.html" />
+    <Content Include="Views\LayOut\.html" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Scripts\json\manifest.json" />
+    <Content Include="Views\DangKy\Index.cshtml" />
+    <Content Include="Views\DangKy\DangKy.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\WebFilm_RecentUploads.cshtml" />
+    <Content Include="Views\LayOut\NguoiDungLayOut.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Login\DangKy.cshtml" />
+    <Content Include="Views\Login\DangNhap.cshtml" />
+    <Content Include="Views\Login\NguoiDungLogin.cshtml" />
+    <Content Include="Views\Login\DangKyNguoiDung.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\TaiKhoan\Index.cshtml" />
+    <Content Include="Views\TaiKhoan\DangKy.cshtml" />
+    <Content Include="Views\allMovie\Index.cshtml" />
+    <Content Include="Views\Shared\_LayoutPageMovieDetail.cshtml" />
+    <Content Include="Views\MovieDetails\Index.cshtml" />
+    <Content Include="Views\MovieDetails\Index2.cshtml" />
+    <Content Include="Views\MovieDetails1\Index.cshtml" />
+    <Content Include="Views\MovieDetails2\Index.cshtml" />
+    <Content Include="Views\DangNhap\Index.cshtml" />
+    <Content Include="Views\Login\DetailMovie.cshtml" />
+    <Content Include="Views\Home\DetailMovie.cshtml" />
+    <Content Include="Views\LayOut\WebFilm_RecentUploads.cshtml" />
+    <Content Include="Views\LayOut\DetailMovie.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Views\ThemPhim\" />
+    <Folder Include="Areas\assets\Shared\less\" />
+    <Folder Include="Areas\assets\User\less\" />
+    <Folder Include="Areas\Images\Shared\" />
+    <Folder Include="Areas\Images\User\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{40EF5429-8937-438B-8F7D-1D1C94BFF077}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>9160</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:9160/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

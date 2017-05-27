@@ -1,0 +1,124 @@
+﻿@using Web_cafe_film.Models;
+@model List<Movie>
+
+@*<link href="~/Areas/assets/Themphim/css/WidthOnTable.css" rel="stylesheet" />*@
+
+
+
+
+
+
+<thead>
+    <tr>
+        <th style="width:5%;height:100px">STT</th>
+        <th style="width:15%;height:100px">Tên phim</th>
+        <th style="width:5%;height:100px">Link</th>
+        <th style="width:15%;height:100px">Ảnh Poster</th>
+        <th style="width:7%;height:100px">Đạo Diễn</th>
+        <th style="width:8%;height:100px">Biên Kịch</th>
+        <th style="width:8%;height:100px">Ngôi Sao</th>
+        <th style="width:13%;height:100px">Mô tả</th>
+        <th style="width:8%;height:100px">Thời Gian SX</th>
+        <th style="width:7%;height:100px">Thời Lượng</th>
+        <th style="width:4%;height:100px">Thể Loại</th>
+        <th style="width:5%;height:100px">Ẩn(>1), Hiện(1)</th>
+    </tr>
+</thead>
+@{
+    foreach (var item in Model)
+    {
+        <tbody>
+            <tr role="row" class="odd">
+                <td style="width:5%;height:100px">@item.MovieID</td>
+                <td style="width:15%;height:100px">@item.MovieName</td>
+                <td style="width:5%;height:100px">@item.URLDetail</td>
+                <td style="width:15%;height:100px"><div id="AnhBia"><img src="@Url.Content("~/LinkImage/"+item.LinkImage)" width="100" height="100"></div></td>
+
+              
+                <td style="width:7%;height:100px">@item.Director</td>
+                <td style="width:8%;height:100px">@item.Writer</td>
+                <td style="width:8%;height:100px">@item.Stars</td>
+                <th style="width:13%;height:100px">@item.Descriptions</th>
+                <td style="width:8%;height:100px">@item.ReleaseDate</td>
+                <td style="width:7%;height:100px">@item.RunningTime</td>
+                <td style="width:4%;height:100px">@item.Category.CategoryName</td>
+                <td style="width:5%;height:100px">@item.New</td>
+            </tr>
+        </tbody>
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<thead> 
+    <tr>
+        <th style="width:5%;height:100px">STT</th>
+        <th style="width:15%;height:100px">Tên phim</th>
+        <th style="width:10%;height:100px">Link</th>
+        <th style="width:15%;height:100px">Ảnh Poster</th>
+        <th style="width:10%;height:100px">Đạo Diễn</th>
+        <th style="width:10%;height:100px">Biên Kịch</th>
+        <th style="width:13%;height:100px">Ngôi Sao</th>
+        <th style="width:10%;height:100px">Thời Gian SX</th>
+        <th style="width:7%;height:100px">Thời Lượng</th>
+
+        <th style="width:5%;height:100px">Ẩn(>1), Hiện(1)</th>        
+    </tr>
+</thead>
+
+
+
+@{
+       foreach (var item in Model)
+        {
+        <tbody>
+            <tr role="row" class="odd">
+                <td style="width:5%;height:100px">@item.MovieID</td>
+                <td style="width:15%;height:100px">@item.MovieName</td>
+                <td style="width:10%;height:100px">@item.URLDetail</td>
+                <td style="width:12%;height:100px"><div id="AnhBia"><img src="@Url.Content("~/Areas/Images/Images/"+item.LinkImage)" width="100" height="100"></div></td>
+                <td style="width:7%;height:100px">@item.Director</td>
+                <td style="width:7%;height:100px">@item.Writer</td>
+                <td style="width:9%;height:100px">@item.Stars</td>
+                <td style="width:5%;height:100px">@item.ReleaseDate</td>
+                <td style="width:10%;height:100px">@item.RunningTime</td>
+             
+                <td style="width:10%">@item.New</td>                           
+             </tr>
+        </tbody>
+    }
+}*@
+
+@*<tfoot>
+    <tr>
+        <th>Số thứ tự</th>
+        <th>Tên phim</th>
+        <th>Link</th>
+        <th>Ảnh Poster</th>
+        <th>Đạo Diễn</th>
+        <th>Biên Kịch</th>
+        <th>Ngôi Sao</th>
+        <th>Năm Sản Xuất</th>
+        <th>Thời Lượng</th>
+        <th>Thể Loại</th>
+        <th>New</th>
+    </tr>
+</tfoot>*@
+

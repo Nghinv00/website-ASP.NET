@@ -1,0 +1,53 @@
+﻿@using Web_cafe_film.Models;
+@model List<Movie>
+
+
+
+<thead>
+    <tr>
+        <th>Số thứ tự</th>
+        <th>Tên phim</th>
+        <th>Link</th>
+
+        <th>Ảnh Poster</th>
+        <th>Thời gian sản xuất</th>
+    </tr>
+</thead>
+
+
+
+@{
+    foreach (var item in Model)
+    {
+        <tbody>
+            <tr role="row" class="odd">
+                <td>@item.MovieID</td>
+                <td>@item.MovieName</td>
+
+
+
+                <td>@item.URLDetail</td>
+
+                <td>
+                    <div id="AnhBia">
+                        <img src="@Url.Content("~/LinkImage/"+item.LinkImage)" width="100" height="100">
+
+                    </div>
+                </td>
+                <td>@item.ReleaseDate</td>
+            </tr>
+        </tbody>
+    }
+}
+
+<tfoot>
+    <tr>
+        <th>Số thứ tự</th>
+        <th>Tên phim</th>
+        <th>Link</th>
+
+        <th>Ảnh Poster</th>
+        <th>Thời gian sản xuất</th>
+    </tr>
+</tfoot>
+

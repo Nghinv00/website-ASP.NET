@@ -1,0 +1,391 @@
+﻿@{
+    Layout = null;
+    var item = (Web_cafe_film.Models.Movie)ViewData["FILMDETAIL"];
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Chi Tiết Phim Mới
+    </title>
+
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="57x57" href="~/Content/MovieDetail/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="~/Content/MovieDetail/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="~/Content/MovieDetail/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="~/Content/MovieDetail/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="~/Content/MovieDetail/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="~/Content/MovieDetail/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="~/Content/MovieDetail/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="~/Content/MovieDetail/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="~/Content/MovieDetail/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="~/Content/MovieDetail/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/Content/MovieDetail/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="~/Content/MovieDetail/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/Content/MovieDetail/favicon/favicon-16x16.png">
+
+    <link rel="manifest" href="~/Content/MovieDetail/manifest.json">
+    <meta name="msapplication-TileColor" content="#e74c3c">
+    <meta name="msapplication-TileImage" content="~/Content/MovieDetail/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#e74c3c">
+
+    <link href="~/Content/NguoiDungCssLayOut/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/NguoiDungCssLayOut/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/Content/MovieDetail/css/magnific-popup.css" rel="stylesheet" />
+    <link href="~/Content/MovieDetail/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/MovieDetail/vendors/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" />
+
+    <!--Fonts-->
+
+    <link href="~/Content/MovieDetail/css.css" rel="stylesheet" type='text/css' />
+    <!--Theme Styles-->
+
+    <link href="~/Content/MovieDetail/css/default/style.css" rel="stylesheet" />
+    <link href="~/Content/MovieDetail/css/responsive/responsive.css" rel="stylesheet" />
+
+    <style>
+        HTML, BODY {
+            cursor: url("../../../../Animation/diamondblue.ani"), url("../../../../Animation/diamondblue.gif"), auto;
+        }
+    </style>
+    <style>
+        A:hover {
+            cursor: url("../../../../Animation/diamondblue.ani"), url("../../../../Animation/diamondblue.gif"), auto;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="~/Content/MovieDetail/images/logo.png" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="middle-menu">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="home_variation_icon"></span>Home
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="@Url.Action("Index","Home")">Trang Chủ</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown mega-drop">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="video_menu_icon"></span>Thể Loại
+                        </a>
+
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="extra_pages_icon"></span>Thông tin
+                        </a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+            <ul class="nav navbar-nav navbar-right login_drop">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="login_icon"></span> Tài Khoản
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="@Url.Action("Index","Home")">Đăng Nhập</a></li>
+                        <li><a href="@Url.Action("Index","Home")">Đăng Ký</a></li>
+                        <li><a href="#">Trang Cá Nhân</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div><!-- /.container-fluid -->
+    </nav> <!--Navigation-->
+
+    <section class="row page_cover">
+        <div class="container">
+            <div class="row m0">
+                <h1>Thông Tin Chi Tiết Phim</h1>
+                <ol class="breadcrumb">
+                    <li><a href="#">Trang Chủ</a></li>
+                    <li class="active">Chi Tiết Phim</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <section class="row">
+        <ul class="nav nav-justified ribbon">
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </section> <!--Ribbon-->
+
+    <!-- giao diện chính : Hiển thị phim và hiển thị các phim mà người dùng có thể xem -->
+    <section class="row post_page_sidebar post_page_sidebar1">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-9 post_page_uploads">
+                    <div class="author_details post_details row m0">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="@item.URLDetail"></iframe>
+                        </div>
+                        <div class="row post_title_n_view">
+                            <h2 class="col-sm-4 view_count">Mã Bộ Phim: @item.MovieID<small></small></h2>
+                            <h2 class="col-sm-8 post_title">@item.MovieName</h2>
+
+                        </div>
+
+                        <div class="media bio_section">
+                            <div class="media-left about_social">
+                                <div class="row m0 section_row author_section widget widget_recommended_to_follow">
+                                    <div class="media">
+
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img src="~/Content/MovieDetail/images/follow/1.jpg" alt="" class="circle" />
+                                            </a>
+                                        </div>
+
+                                        <div class="media-body media-middle">
+                                            <a href="#">
+                                                <h5> William Hanna và Joseph Barbera</h5>
+                                            </a>
+
+                                            <div class="btn-group">
+                                                <a href="#" class="btn follower_count">75</a>
+                                                <a href="#" class="btn follow">years</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <!-- Comment của thành viên-->
+                    <div class="row m0 comments">
+                        <h5 class="comment_count">37 Comments:</h5>
+                        <!-- comment của thành viên-->
+                        <div class="media comment">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img src="~/Content/MovieDetail/images/follow/4.jpg" alt="" class="img-circle">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <div class="comment_header">
+                                    <h5>
+                                        <a href="#" class="author_name">Trung Nguyễn</a>
+                                        <span class="time_ago"> 2 months ago</span>
+                                        <a href="#" class="reply_link">Trả Lời</a>
+                                    </h5>
+                                </div>
+                                <p>tom and jerry rat hay﻿</p>
+
+                                <!-- comment của thành viên-->
+                                <div class="media comment comment_reply">
+                                    <div class="media-left"><a href="#"><img src="~/Content/MovieDetail/images/follow/4.jpg" alt="" class="img-circle"></a></div>
+                                    <div class="media-body">
+                                        <div class="comment_header">
+                                            <h5>
+                                                <a href="#" class="author_name">Mai Thị Hoa</a>
+                                                <span class="time_ago">1 weeks ago</span>
+                                                <a href="#" class="reply_link">Trả Lời</a>
+                                            </h5>
+                                        </div>
+                                        <p>Ai là fan của Tom và Jerry cho xin 1 like nào....﻿</p>
+                                    </div>
+                                </div> <!--Comment Reply-->
+                            </div>
+                        </div> <!--Comment-->
+
+                        <div class="media comment">
+                            <div class="media-left"><a href="#"><img src="~/Content/MovieDetail/images/follow/4.jpg" alt="" class="img-circle"></a></div>
+                            <div class="media-body">
+                                <div class="comment_header">
+                                    <h5>
+                                        <a href="#" class="author_name">Hằng Nguyễn</a>
+                                        <span class="time_ago">2 weeks ago</span>
+                                        <a href="#" class="reply_link">Trả Lời</a>
+                                    </h5>
+                                </div>
+                                <p>Tuổi thơ ùa về﻿</p>
+
+                                <div class="media comment comment_reply">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img src="~/Content/MovieDetail/images/follow/4.jpg" alt="" class="img-circle">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="comment_header">
+                                            <h5>
+                                                <a href="#" class="author_name">Thanh Nga Trần</a>
+                                                <span class="time_ago">1 month ago</span>
+                                                <a href="#" class="reply_link">Trả Lời</a>
+                                            </h5>
+
+
+                                        </div>
+                                        <p>10000000000000000000000000 like﻿     </p>
+                                    </div>
+                                </div> <!--Comment Reply-->
+                            </div>
+                        </div> <!--Comment-->
+                    </div>                    
+                    <form action="#" class="row m0 comment_form">
+                        <h5>Nhận Xét Của Bạn</h5>
+                        <textarea class="form-control"></textarea>
+                        <input type="submit" value="Bình Luận" class="btn btn default">
+                    </form>
+                </div>
+                <!--Button tìm kiếm -->
+                <div class="col-sm-3 sidebar sidebar2">
+                    <div class="row m0 sidebar_row_inner">
+
+                        <!--       Search Form: Form Tìm Kiếm   -->
+
+                        <form action="#" role="search" class="search_form row m0 widget widget_search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Tìm kiếm">
+                                <span class="input-group-addon">
+                                    <button type="submit">
+                                        <img src="~/Content/MovieDetail/images/icons/search.png" alt="">
+
+                                    </button>
+                                </span>
+                            </div>
+                        </form>    
+                        <!--Có thể bạn muốn xem -->
+                        <div class="row m0 widget widget_popular_videos">
+                            <h5 class="widget_title">Có thể bạn muốn xem</h5>
+                            <div class="row m0 inner">
+                                @foreach (Web_cafe_film.Models.Movie itemMovie in ViewData["SUGGESTFILM"] as List<Web_cafe_film.Models.Movie>)
+                                {
+                                    <div class="media">
+                                    <!-- Load ảnh -->
+                                    <div class="media-left">
+                                        <!-- Link 1 : phần hình ảnh -->
+                                        <a href="@Url.Action("DetailMovie", new { @MovieID = itemMovie.MovieID })">
+                                            <!-- Phần hình ảnh -->                                           
+                                            <img src="@Url.Content("~/LinkImage/"+itemMovie.LinkImage)" alt="Image" style="width:100% " />
+                                            <span class="duration"></span>                                           
+                                            <span class="duration"><label></label></span>                                         
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <!-- Link 2 : Phần dòng Texxt-->                                        
+                                          <a href="@Url.Action("DetailMovie", new { @MovieID = itemMovie.MovieID })">
+                                            <!-- Link phần tên của từng bộ phim-->
+                                            <h5>@itemMovie.MovieName</h5>
+                                        </a>
+                                        <!-- số lượt View-->
+                                        <div class="row m0 meta_info views">
+                                            Mã Bộ Phim: @itemMovie.MovieID
+                                        </div>
+                                        <!-- Ngày Sản Xuất-->
+                                        <div class="row m0 meta_info posted">
+                                            @itemMovie.YearProduce
+                                        </div>
+                                    </div>
+                                </div>
+                                }
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!--Uploads-->
+    <section class="row">
+        <ul class="nav nav-justified ribbon">
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </section> <!--Ribbon-->
+    <footer class="row">
+        <div class="container">
+            <div class="row sidebar sidebar_footer">
+                <div class="col-sm-3 widget widget1 w_in_footer widget_about">
+                    <h5 class="widget_title">About Video Cafe</h5>
+                    <div class="row m0 inner">
+                        <a href="#"><img src="images/footer-logo.png" alt=""></a><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
+
+                    </div>
+                </div>
+                <div class="col-sm-3 widget widget2 w_in_footer widget_subscribe">
+                    <h5 class="widget_title">subscribe to our newsletter</h5>
+                    <div class="row m0 inner">
+                        <form action="#" class="row m0" method="post">
+                            <input type="email" class="form-control" placeholder="Enter Email Address">
+                            <input type="submit" value="Submit Now" class="form-control btn btn-default">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-3 widget widget3 w_in_footer widget_tags">
+                    <h5 class="widget_title">popular tags</h5>
+                    <div class="row m0 inner">
+                        <a href="#" class="tag">business</a>
+                        <a href="#" class="tag">osx</a>
+                        <a href="#" class="tag">windows 10</a>
+                        <a href="#" class="tag">osx yosemite</a>
+                        <a href="#" class="tag">photoshop</a>
+                        <a href="#" class="tag">css</a>
+                        <a href="#" class="tag">business</a>
+                        <a href="#" class="tag">osx</a>
+                        <a href="#" class="tag">windows 10</a>
+                        <a href="#" class="tag">osx yosemite</a>
+                        <a href="#" class="tag">photoshop</a>
+                        <a href="#" class="tag">css</a>
+                    </div>
+                </div>
+                <div class="col-sm-3 widget widget4 w_in_footer widget_twitter">
+                    <h5 class="widget_title">twitter feed</h5>                 
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+    <script src="~/Content/MovieDetail/js/jquery-2.1.4.min.js"></script>
+    <script src="~/Content/MovieDetail/js/bootstrap.min.js"></script>
+    <script src="~/Content/MovieDetail/js/dropzone.js"></script>
+    <script src="~/Content/MovieDetail/js/jquery.jscroll.min.js"></script>
+    <script src="~/Content/MovieDetail/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/Content/MovieDetail/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="~/Content/MovieDetail/js/theme.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

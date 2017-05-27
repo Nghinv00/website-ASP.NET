@@ -1,0 +1,149 @@
+﻿@model Web_cafe_film.Models.Movie
+
+@{
+    ViewBag.Title = "HienThi";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Thông tin chi tiết bộ phim</h2>
+
+<div>
+    <h4>Movie</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MovieID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MovieID)
+        </dd>
+     
+    
+        <dt>
+            @Html.DisplayNameFor(model => model.MovieName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MovieName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.URLDetail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.URLDetail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LinkImage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LinkImage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descriptions)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descriptions)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Director)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Director)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Writer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Writer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Stars)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Stars)
+        </dd>
+
+        
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.AddressProduce)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AddressProduce)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RunningTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RunningTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReleaseDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReleaseDate)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.ReleaseAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReleaseAddress)
+        </dd>*@
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Img)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Img)
+        </dd>*@
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.CategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.CategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.New)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.New)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Employee.NameEmp)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Employee.NameEmp)
+        </dd>*@
+
+    </dl>
+</div>
+<p>
+    <h3>@Html.ActionLink("Chỉnh Sửa", "ChinhSua", new { @MovieID = Model.MovieID }) </h3>|
+    <h3>@Html.ActionLink("Trở Về", "Index")</h3>
+</p>

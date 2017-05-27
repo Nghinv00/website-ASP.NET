@@ -1,0 +1,93 @@
+﻿
+@{
+    ViewBag.Title = "DangNhap";
+    // Layout = "~/Views/LayOut/NguoiDungLayOut.cshtml";
+}
+
+@*<h2>
+        Đăng nhập
+    </h2>*@
+
+@*@using (Html.BeginForm())
+    {
+        <span>Tài khoản</span>
+        <br />
+        @Html.TextBox("txtTaiKhoan");
+        <br />
+        <br />
+        <span>Mật khẩu</span>
+        <br />
+        <input name="txtMatKhau" type="text" />
+        <br />
+        <br />
+        <input type="submit" id="btnSubmit" name="btnSubmit" />
+    }*@
+
+
+<link href="~/Content/DangNhap/DangNhapCss.css" rel="stylesheet" />
+<!DOCTYPE html>
+
+@*@using (Html.BeginForm())
+    {*@
+@*<h3>@ViewBag</h3>*@
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Paper Stack</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+
+    <style>
+        HTML, BODY {
+            cursor: url("../../../../Animation/diamondblue.ani"), url("../../../../Animation/diamondblue.gif"), auto;
+        }
+    </style>
+    <style>
+        A:hover {
+            cursor: url("../../../../Animation/diamondblue.ani"), url("../../../../Animation/diamondblue.gif"), auto;
+        }
+    </style>
+
+
+</head>
+<body>
+    @RenderBody()
+    @using (Html.BeginForm("Index", "Login", FormMethod.Post))
+    {
+    <div class="container">
+        <section id="content">
+            <form action="">
+                <h1>Đăng nhập</h1>
+                <div>
+                    <input name="txtTaiKhoan" type="text" placeholder="Username" required="" id="username" />
+                </div>
+                <div>
+                    <input name="txtMatKhau " type="password" placeholder="Password" required="" id="password" />
+                </div>
+                <div>
+
+                    <div class="col-xs-8">
+                        <div class="checkbox icheck">
+                            <label>
+                                @*  @Html.CheckBoxFor(u => u.RememberMe) Ghi nhớ mật khẩu*@
+
+                            </label>
+                        </div>
+                    </div>
+                    <input type="submit" value="Đăng nhập"/>
+                    @* @Html.ActionLink("Đăng nhập", "Index")*@
+                    <a href="#">Quên mật khẩu</a>
+                    @*<a href="#">Register</a>*@
+                </div>
+            </form><!-- form -->
+            @*<div class="button">
+                    <a href="#">Download source file</a>
+                </div>*@<!-- button -->
+        </section><!-- content -->
+    </div><!-- container -->
+    @* <h3>@ViewBag.ThongBao</h3>*@
+    }
+</body>
+</html>
+@*}*@

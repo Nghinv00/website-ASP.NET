@@ -1,0 +1,65 @@
+﻿
+
+@using Web_cafe_film.Models;
+@model List<ThanhVien>
+
+
+<thead>
+    <tr>
+        <th>Số thứ tự</th>
+        <th>Họ tên</th>
+        <th>Giới Tính</th>
+        <th>Ngày Sinh</th>
+        <th>Gmail</th>
+        <th>số Điện Thoại</th>
+
+    </tr>
+</thead>
+
+@{
+    foreach (var item in Model)
+    {
+        <tbody>
+            <tr role="row" class="odd">
+                <td>
+                    @item.MaThanhVien
+                </td>
+                <td>
+                    @item.HoTen
+                </td>
+                <td>
+                    @item.GioiTinh
+                </td>
+                <td>
+                    @item.NgaySinh
+                </td>               
+
+                <td>
+                    @item.Gmail
+
+                </td>            
+                <td>
+                    @item.SoDienThoai
+                </td>
+              
+
+            </tr>
+        </tbody>
+    }
+}
+
+<tfoot>
+    <tr>
+        <th>Số thứ tự</th>
+        <th>Họ tên</th>
+        <th>Giới Tính</th>
+        <th>Ngày Sinh</th>
+        <th>Gmail</th>
+        <th>số Điện Thoại</th>
+    </tr>
+</tfoot>
+
+
+
+
+

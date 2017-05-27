@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_cafe_film", "Web_cafe_film\Web_cafe_film.csproj", "{63BFD1A7-FB24-43D1-9DB2-1FEDD80A53CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{40EF5429-8937-438B-8F7D-1D1C94BFF077}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63BFD1A7-FB24-43D1-9DB2-1FEDD80A53CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63BFD1A7-FB24-43D1-9DB2-1FEDD80A53CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63BFD1A7-FB24-43D1-9DB2-1FEDD80A53CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63BFD1A7-FB24-43D1-9DB2-1FEDD80A53CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40EF5429-8937-438B-8F7D-1D1C94BFF077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40EF5429-8937-438B-8F7D-1D1C94BFF077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40EF5429-8937-438B-8F7D-1D1C94BFF077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40EF5429-8937-438B-8F7D-1D1C94BFF077}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

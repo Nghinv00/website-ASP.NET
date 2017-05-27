@@ -1,0 +1,20 @@
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Models\bin\Debug\Models.dll.config
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Models\bin\Debug\Models.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Models\bin\Debug\Models.pdb
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Models\bin\Debug\EntityFramework.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Models\bin\Debug\EntityFramework.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Models\obj\Debug\Models.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Models\obj\Debug\Models.pdb
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\Models.dll.config
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\Models.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\Models.pdb
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\EntityFramework.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\EntityFramework.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\obj\Debug\Models.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Models\obj\Debug\Models.pdb

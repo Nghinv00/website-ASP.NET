@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+
+
+    <style>
+        HTML, BODY {
+            cursor: url("../../../../Animation/diamondblue.ani"), url("../../../../Animation/diamondblue.gif"), auto;
+        }
+    </style>
+    <style>
+        A:hover {
+            cursor: url("../../../../Animation/diamondblue.ani"), url("../../../../Animation/diamondblue.gif"), auto;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    @RenderBody()
+    <section>
+
+        <div>
+            <!--    Form login sẽ hiển thị giống dạng form và đề lên-->
+            <form class="container-fluid login_form auth_form" action="#" method="post" role="form">
+                <div class="form-inner row">
+                    <div class="login_options row m0">
+                        <div class="options_header row m0">
+
+                            <a href="index.html">
+                                <img src="~/Images/images/logo.png" alt="" />
+                            </a>
+                            <h4>
+                                Đăng nhập vào hệ thống  VideoCafe
+                                <a href="signup.html">Tạo tài khoản mới</a>
+
+                            </h4>
+                        </div>
+                        @*<div class="row m0 login_with_social_media">
+                                <a href="#"><img src="~/Images/images/btn/twitter-login.png" alt="" /></a>
+                                <a href="#"><img src="~/Images/images/btn/facebook-login.png" alt="" /></a>
+                                <a href="#"><img src="~/Images/images/btn/gmail-login.png" alt="" /></a>
+                            </div>*@
+                    </div>
+                    <div class="form-header row m0">
+                        <h4>Hoặc đăng nhập bằng địa chỉ email</h4>
+                    </div>
+                    <div class="form-body row m0">
+                        <input type="text" class="form-control" placeholder="Full Name">
+                        <input type="email" class="form-control" placeholder="Email Address">
+                        <input type="password" class="form-control" placeholder="Password">
+                        <input type="submit" value="Sign In" class="btn btn-default form-control">
+                    </div>
+                    <div class="form-footer row m0">
+                        <button title="Close (Esc)" type="button" class="mfp-close"></button>
+                    </div>
+                </div>
+            </form>
+
+
+
+
+        </div>
+
+    </section>
+</body>
+
+
+
+
+</html>
+
+
+@*Form login sẽ hiển thị giống dạng form và đề lên
+    <form class="container-fluid login_form auth_form" action="#" method="post" role="form">
+        <div class="form-inner row">
+            <div class="login_options row m0">
+                <div class="options_header row m0">
+
+                    <a href="index.html">
+                        <img src="~/Images/images/logo.png" alt=""/>
+                    </a>
+                    <h4> Đăng nhập vào hệ thống  VideoCafe
+                    <a href="signup.html">Tạo tài khoản mới</a>
+
+                    </h4>
+                </div>
+                <div class="row m0 login_with_social_media">
+                    <a href="#"><img src="images/btn/twitter-login.png" alt=""></a>
+                    <a href="#"><img src="images/btn/facebook-login.png" alt=""></a>
+                    <a href="#"><img src="images/btn/gmail-login.png" alt=""></a>
+                </div>
+            </div>
+            <div class="form-header row m0">
+                <h4>Hoặc Đăng nhập bằng địa chỉ email</h4>
+            </div>
+            <div class="form-body row m0">
+                <input type="text" class="form-control" placeholder="Full Name">
+                <input type="email" class="form-control" placeholder="Email Address">
+                <input type="password" class="form-control" placeholder="Password">
+                <input type="submit" value="Sign In" class="btn btn-default form-control">
+            </div>
+            <div class="form-footer row m0">
+                <button title="Close (Esc)" type="button" class="mfp-close"></button>
+            </div>
+        </div>
+    </form>*@
+

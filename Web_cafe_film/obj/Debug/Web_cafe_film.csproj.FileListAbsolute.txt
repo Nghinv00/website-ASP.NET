@@ -1,0 +1,1050 @@
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\ApplicationInsights.config
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\roslyn\csc.exe
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\roslyn\System.Collections.Immutable.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\roslyn\System.Reflection.Metadata.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\roslyn\vbc.exe
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\roslyn\VBCSCompiler.exe
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\roslyn\VBCSCompiler.exe.config
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Web_cafe_film.dll.config
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Web_cafe_film.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Web_cafe_film.pdb
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Antlr3.Runtime.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\EntityFramework.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\EntityFramework.SqlServer.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.AI.Agent.Intercept.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.AI.Web.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.AI.WindowsServer.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.ApplicationInsights.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.Security.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.Security.Google.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Web.Infrastructure.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Newtonsoft.Json.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Owin.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\System.Web.Helpers.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\System.Web.Mvc.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\System.Web.Optimization.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\System.Web.Razor.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\System.Web.WebPages.Deployment.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\System.Web.WebPages.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\System.Web.WebPages.Razor.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\WebGrease.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.AI.Web.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.AI.WindowsServer.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.ApplicationInsights.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\System.Web.Helpers.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\System.Web.Mvc.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\System.Web.Optimization.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\System.Web.Razor.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\System.Web.WebPages.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\System.Web.WebPages.Deployment.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\System.Web.WebPages.Razor.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Antlr3.Runtime.pdb
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Newtonsoft.Json.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\EntityFramework.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\EntityFramework.SqlServer.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.Security.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.Security.Google.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\obj\Debug\Web_cafe_film.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\obj\Debug\Web_cafe_film.pdb
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Web_cafe_film\Web_cafe_film\Web_cafe_film\obj\Debug\Web_cafe_film.csprojResolveAssemblyReference.cache
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\ApplicationInsights.config
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\roslyn\csc.exe
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\roslyn\System.Collections.Immutable.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\roslyn\System.Reflection.Metadata.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\roslyn\vbc.exe
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe.config
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Web_cafe_film.dll.config
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Web_cafe_film.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Web_cafe_film.pdb
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Antlr3.Runtime.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\EntityFramework.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\EntityFramework.SqlServer.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.AI.Agent.Intercept.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.AI.Web.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.Security.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Web.Infrastructure.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Newtonsoft.Json.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Owin.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\System.Web.Helpers.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\System.Web.Mvc.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\System.Web.Optimization.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\System.Web.Razor.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\System.Web.WebPages.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\WebGrease.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.AI.Web.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\System.Web.Helpers.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\System.Web.Mvc.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\System.Web.Optimization.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\System.Web.Razor.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\System.Web.WebPages.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Antlr3.Runtime.pdb
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Newtonsoft.Json.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\EntityFramework.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\EntityFramework.SqlServer.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.Security.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\obj\Debug\Web_cafe_film.csprojResolveAssemblyReference.cache
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\obj\Debug\Web_cafe_film.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\obj\Debug\Web_cafe_film.pdb
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\PagedList.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\PagedList.Mvc.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\PagedList.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\PagedList.Mvc.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Models.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Project\Web_cafe_film\bin\Models.pdb
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\obj\Debug\Web_cafe_film.csprojResolveAssemblyReference.cache
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\obj\Debug\Web_cafe_film.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\obj\Debug\Web_cafe_film.pdb
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\ApplicationInsights.config
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\csc.exe
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\System.Collections.Immutable.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\System.Reflection.Metadata.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\vbc.exe
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe.config
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Web_cafe_film.dll.config
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Web_cafe_film.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Web_cafe_film.pdb
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Antlr3.Runtime.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\EntityFramework.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\EntityFramework.SqlServer.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.Agent.Intercept.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.Web.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Web.Infrastructure.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Models.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Newtonsoft.Json.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Owin.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\PagedList.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\PagedList.Mvc.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.Helpers.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.Mvc.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.Optimization.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.Razor.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.WebPages.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\WebGrease.dll
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Models.pdb
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.Web.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\PagedList.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\PagedList.Mvc.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.Helpers.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.Mvc.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.Optimization.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.Razor.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.WebPages.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Antlr3.Runtime.pdb
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Newtonsoft.Json.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\EntityFramework.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\EntityFramework.SqlServer.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.xml
+E:\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\ApplicationInsights.config
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\csc.exe
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\System.Collections.Immutable.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\System.Reflection.Metadata.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\vbc.exe
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe.config
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Web_cafe_film.dll.config
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Web_cafe_film.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Web_cafe_film.pdb
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Antlr3.Runtime.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\EntityFramework.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\EntityFramework.SqlServer.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.Agent.Intercept.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.Web.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Web.Infrastructure.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Models.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Newtonsoft.Json.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Owin.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\PagedList.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\PagedList.Mvc.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.Helpers.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.Mvc.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.Optimization.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.Razor.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.WebPages.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\WebGrease.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Models.pdb
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.Web.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\PagedList.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\PagedList.Mvc.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.Helpers.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.Mvc.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.Optimization.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.Razor.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.WebPages.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Antlr3.Runtime.pdb
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Newtonsoft.Json.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\EntityFramework.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\EntityFramework.SqlServer.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\obj\Debug\Web_cafe_film.csprojResolveAssemblyReference.cache
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\obj\Debug\Web_cafe_film.dll
+E:\DATA\DATA\PTTKHTTT_ImformationSystemAnalysAndDesign\ASPNET_Webfilm\Backup_\Backup 03 - 01 - 2017\Project\Web_cafe_film\obj\Debug\Web_cafe_film.pdb
+F:\Project\Web_cafe_film\bin\ApplicationInsights.config
+F:\Project\Web_cafe_film\bin\roslyn\csc.exe
+F:\Project\Web_cafe_film\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Project\Web_cafe_film\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Project\Web_cafe_film\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Project\Web_cafe_film\bin\roslyn\System.Collections.Immutable.dll
+F:\Project\Web_cafe_film\bin\roslyn\System.Reflection.Metadata.dll
+F:\Project\Web_cafe_film\bin\roslyn\vbc.exe
+F:\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe
+F:\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe.config
+F:\Project\Web_cafe_film\bin\Web_cafe_film.dll.config
+F:\Project\Web_cafe_film\bin\Web_cafe_film.dll
+F:\Project\Web_cafe_film\bin\Web_cafe_film.pdb
+F:\Project\Web_cafe_film\bin\Antlr3.Runtime.dll
+F:\Project\Web_cafe_film\bin\EntityFramework.dll
+F:\Project\Web_cafe_film\bin\EntityFramework.SqlServer.dll
+F:\Project\Web_cafe_film\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.dll
+F:\Project\Web_cafe_film\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Project\Web_cafe_film\bin\Microsoft.AI.Web.dll
+F:\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.dll
+F:\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.dll
+F:\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.dll
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.Security.dll
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.dll
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Project\Web_cafe_film\bin\Microsoft.Web.Infrastructure.dll
+F:\Project\Web_cafe_film\bin\Models.dll
+F:\Project\Web_cafe_film\bin\Newtonsoft.Json.dll
+F:\Project\Web_cafe_film\bin\Owin.dll
+F:\Project\Web_cafe_film\bin\PagedList.dll
+F:\Project\Web_cafe_film\bin\PagedList.Mvc.dll
+F:\Project\Web_cafe_film\bin\System.Web.Helpers.dll
+F:\Project\Web_cafe_film\bin\System.Web.Mvc.dll
+F:\Project\Web_cafe_film\bin\System.Web.Optimization.dll
+F:\Project\Web_cafe_film\bin\System.Web.Razor.dll
+F:\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.dll
+F:\Project\Web_cafe_film\bin\System.Web.WebPages.dll
+F:\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.dll
+F:\Project\Web_cafe_film\bin\WebGrease.dll
+F:\Project\Web_cafe_film\bin\Models.pdb
+F:\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.xml
+F:\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Project\Web_cafe_film\bin\Microsoft.AI.Web.xml
+F:\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.xml
+F:\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.xml
+F:\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Project\Web_cafe_film\bin\PagedList.xml
+F:\Project\Web_cafe_film\bin\PagedList.Mvc.xml
+F:\Project\Web_cafe_film\bin\System.Web.Helpers.xml
+F:\Project\Web_cafe_film\bin\System.Web.Mvc.xml
+F:\Project\Web_cafe_film\bin\System.Web.Optimization.xml
+F:\Project\Web_cafe_film\bin\System.Web.Razor.xml
+F:\Project\Web_cafe_film\bin\System.Web.WebPages.xml
+F:\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.xml
+F:\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.xml
+F:\Project\Web_cafe_film\bin\Antlr3.Runtime.pdb
+F:\Project\Web_cafe_film\bin\Newtonsoft.Json.xml
+F:\Project\Web_cafe_film\bin\EntityFramework.xml
+F:\Project\Web_cafe_film\bin\EntityFramework.SqlServer.xml
+F:\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.xml
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.Security.xml
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.xml
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Project\Web_cafe_film\obj\Debug\Web_cafe_film.csprojResolveAssemblyReference.cache
+F:\Project\Web_cafe_film\obj\Debug\Web_cafe_film.dll
+F:\Project\Web_cafe_film\obj\Debug\Web_cafe_film.pdb
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\ApplicationInsights.config
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\csc.exe
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\System.Collections.Immutable.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\System.Reflection.Metadata.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\vbc.exe
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe.config
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Web_cafe_film.dll.config
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Web_cafe_film.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Web_cafe_film.pdb
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Antlr3.Runtime.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\EntityFramework.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\EntityFramework.SqlServer.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.Agent.Intercept.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.Web.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Web.Infrastructure.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Models.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Newtonsoft.Json.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Owin.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\PagedList.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\PagedList.Mvc.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.Helpers.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.Mvc.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.Optimization.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.Razor.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.WebPages.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\WebGrease.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Models.pdb
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.Web.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\PagedList.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\PagedList.Mvc.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.Helpers.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.Mvc.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.Optimization.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.Razor.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.WebPages.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Antlr3.Runtime.pdb
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Newtonsoft.Json.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\EntityFramework.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\EntityFramework.SqlServer.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\obj\Debug\Web_cafe_film.csprojResolveAssemblyReference.cache
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\obj\Debug\Web_cafe_film.dll
+C:\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\obj\Debug\Web_cafe_film.pdb
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\ApplicationInsights.config
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\csc.exe
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\System.Collections.Immutable.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\System.Reflection.Metadata.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\vbc.exe
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe.config
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Web_cafe_film.dll.config
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Web_cafe_film.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Web_cafe_film.pdb
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Antlr3.Runtime.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\EntityFramework.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\EntityFramework.SqlServer.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.Agent.Intercept.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.Web.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Web.Infrastructure.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Models.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Newtonsoft.Json.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Owin.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\PagedList.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\PagedList.Mvc.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.Helpers.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.Mvc.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.Optimization.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.Razor.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.WebPages.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\WebGrease.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Models.pdb
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.Web.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\PagedList.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\PagedList.Mvc.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.Helpers.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.Mvc.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.Optimization.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.Razor.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.WebPages.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Antlr3.Runtime.pdb
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Newtonsoft.Json.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\EntityFramework.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\EntityFramework.SqlServer.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\obj\Debug\Web_cafe_film.csprojResolveAssemblyReference.cache
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\obj\Debug\Web_cafe_film.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Documents\Project\Web_cafe_film\obj\Debug\Web_cafe_film.pdb
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\obj\Debug\Web_cafe_film.csprojResolveAssemblyReference.cache
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\obj\Debug\Web_cafe_film.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\obj\Debug\Web_cafe_film.pdb
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\ApplicationInsights.config
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\roslyn\csc.exe
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\roslyn\System.Collections.Immutable.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\roslyn\System.Reflection.Metadata.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\roslyn\vbc.exe
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe.config
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Web_cafe_film.dll.config
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Web_cafe_film.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Web_cafe_film.pdb
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Antlr3.Runtime.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\EntityFramework.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\EntityFramework.SqlServer.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.AI.Agent.Intercept.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.AI.Web.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.Security.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Web.Infrastructure.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Models.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Newtonsoft.Json.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Owin.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\PagedList.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\PagedList.Mvc.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\System.Web.Helpers.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\System.Web.Mvc.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\System.Web.Optimization.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\System.Web.Razor.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\System.Web.WebPages.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\WebGrease.dll
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Models.pdb
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.AI.Web.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\PagedList.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\PagedList.Mvc.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\System.Web.Helpers.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\System.Web.Mvc.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\System.Web.Optimization.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\System.Web.Razor.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\System.Web.WebPages.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Antlr3.Runtime.pdb
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Newtonsoft.Json.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\EntityFramework.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\EntityFramework.SqlServer.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.Security.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.xml
+D:\DHThuyLoi\GiangDay\Nam2016-2017\NCKHSV\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\ApplicationInsights.config
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\roslyn\csc.exe
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\roslyn\System.Collections.Immutable.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\roslyn\System.Reflection.Metadata.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\roslyn\vbc.exe
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe.config
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Web_cafe_film.dll.config
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Web_cafe_film.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Web_cafe_film.pdb
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Antlr3.Runtime.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\EntityFramework.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\EntityFramework.SqlServer.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.AI.Agent.Intercept.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.AI.Web.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.Security.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Web.Infrastructure.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Models.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Newtonsoft.Json.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Owin.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\PagedList.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\PagedList.Mvc.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\System.Web.Helpers.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\System.Web.Mvc.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\System.Web.Optimization.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\System.Web.Razor.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\System.Web.WebPages.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\WebGrease.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Models.pdb
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.AI.Web.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\PagedList.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\PagedList.Mvc.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\System.Web.Helpers.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\System.Web.Mvc.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\System.Web.Optimization.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\System.Web.Razor.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\System.Web.WebPages.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Antlr3.Runtime.pdb
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Newtonsoft.Json.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\EntityFramework.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\EntityFramework.SqlServer.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.Security.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\obj\Debug\Web_cafe_film.csprojResolveAssemblyReference.cache
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\obj\Debug\Web_cafe_film.dll
+F:\NCKH 2016\demo 09 03 2017\Project\Project\Web_cafe_film\obj\Debug\Web_cafe_film.pdb
+F:\Nghi\Project\Web_cafe_film\bin\ApplicationInsights.config
+F:\Nghi\Project\Web_cafe_film\bin\roslyn\csc.exe
+F:\Nghi\Project\Web_cafe_film\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Nghi\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Nghi\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Nghi\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Nghi\Project\Web_cafe_film\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Nghi\Project\Web_cafe_film\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Nghi\Project\Web_cafe_film\bin\roslyn\System.Collections.Immutable.dll
+F:\Nghi\Project\Web_cafe_film\bin\roslyn\System.Reflection.Metadata.dll
+F:\Nghi\Project\Web_cafe_film\bin\roslyn\vbc.exe
+F:\Nghi\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe
+F:\Nghi\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe.config
+F:\Nghi\Project\Web_cafe_film\bin\Web_cafe_film.dll.config
+F:\Nghi\Project\Web_cafe_film\bin\Web_cafe_film.dll
+F:\Nghi\Project\Web_cafe_film\bin\Web_cafe_film.pdb
+F:\Nghi\Project\Web_cafe_film\bin\Antlr3.Runtime.dll
+F:\Nghi\Project\Web_cafe_film\bin\EntityFramework.dll
+F:\Nghi\Project\Web_cafe_film\bin\EntityFramework.SqlServer.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.AI.Web.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.Security.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Web.Infrastructure.dll
+F:\Nghi\Project\Web_cafe_film\bin\Models.dll
+F:\Nghi\Project\Web_cafe_film\bin\Newtonsoft.Json.dll
+F:\Nghi\Project\Web_cafe_film\bin\Owin.dll
+F:\Nghi\Project\Web_cafe_film\bin\PagedList.dll
+F:\Nghi\Project\Web_cafe_film\bin\PagedList.Mvc.dll
+F:\Nghi\Project\Web_cafe_film\bin\System.Web.Helpers.dll
+F:\Nghi\Project\Web_cafe_film\bin\System.Web.Mvc.dll
+F:\Nghi\Project\Web_cafe_film\bin\System.Web.Optimization.dll
+F:\Nghi\Project\Web_cafe_film\bin\System.Web.Razor.dll
+F:\Nghi\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.dll
+F:\Nghi\Project\Web_cafe_film\bin\System.Web.WebPages.dll
+F:\Nghi\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.dll
+F:\Nghi\Project\Web_cafe_film\bin\WebGrease.dll
+F:\Nghi\Project\Web_cafe_film\bin\Models.pdb
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.xml
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.AI.Web.xml
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.xml
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.xml
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Nghi\Project\Web_cafe_film\bin\PagedList.xml
+F:\Nghi\Project\Web_cafe_film\bin\PagedList.Mvc.xml
+F:\Nghi\Project\Web_cafe_film\bin\System.Web.Helpers.xml
+F:\Nghi\Project\Web_cafe_film\bin\System.Web.Mvc.xml
+F:\Nghi\Project\Web_cafe_film\bin\System.Web.Optimization.xml
+F:\Nghi\Project\Web_cafe_film\bin\System.Web.Razor.xml
+F:\Nghi\Project\Web_cafe_film\bin\System.Web.WebPages.xml
+F:\Nghi\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.xml
+F:\Nghi\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.xml
+F:\Nghi\Project\Web_cafe_film\bin\Antlr3.Runtime.pdb
+F:\Nghi\Project\Web_cafe_film\bin\Newtonsoft.Json.xml
+F:\Nghi\Project\Web_cafe_film\bin\EntityFramework.xml
+F:\Nghi\Project\Web_cafe_film\bin\EntityFramework.SqlServer.xml
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.xml
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.Security.xml
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.xml
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Nghi\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Nghi\Project\Web_cafe_film\obj\Debug\Web_cafe_film.csprojResolveAssemblyReference.cache
+F:\Nghi\Project\Web_cafe_film\obj\Debug\Web_cafe_film.dll
+F:\Nghi\Project\Web_cafe_film\obj\Debug\Web_cafe_film.pdb
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\ApplicationInsights.config
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\roslyn\csc.exe
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\roslyn\System.Collections.Immutable.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\roslyn\System.Reflection.Metadata.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\roslyn\vbc.exe
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe.config
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Web_cafe_film.dll.config
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Web_cafe_film.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Web_cafe_film.pdb
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Antlr3.Runtime.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\EntityFramework.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\EntityFramework.SqlServer.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.AI.Agent.Intercept.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.AI.Web.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.Security.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Web.Infrastructure.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Models.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Newtonsoft.Json.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Owin.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\PagedList.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\PagedList.Mvc.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\System.Web.Helpers.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\System.Web.Mvc.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\System.Web.Optimization.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\System.Web.Razor.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\System.Web.WebPages.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\WebGrease.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Models.pdb
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.AI.Web.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\PagedList.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\PagedList.Mvc.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\System.Web.Helpers.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\System.Web.Mvc.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\System.Web.Optimization.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\System.Web.Razor.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\System.Web.WebPages.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Antlr3.Runtime.pdb
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Newtonsoft.Json.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\EntityFramework.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\EntityFramework.SqlServer.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.Security.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\obj\Debug\Web_cafe_film.csprojResolveAssemblyReference.cache
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\obj\Debug\Web_cafe_film.dll
+C:\DATA\PhanTichThietKeHeThongThongTin\Project\Web_cafe_film\obj\Debug\Web_cafe_film.pdb
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\ApplicationInsights.config
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\roslyn\csc.exe
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\roslyn\System.Collections.Immutable.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\roslyn\System.Reflection.Metadata.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\roslyn\vbc.exe
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\roslyn\VBCSCompiler.exe.config
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Web_cafe_film.dll.config
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Web_cafe_film.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Web_cafe_film.pdb
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Antlr3.Runtime.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\EntityFramework.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\EntityFramework.SqlServer.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.AI.Agent.Intercept.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.AI.Web.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.Security.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Web.Infrastructure.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Models.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Newtonsoft.Json.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Owin.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\PagedList.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\PagedList.Mvc.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\System.Web.Helpers.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\System.Web.Mvc.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\System.Web.Optimization.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\System.Web.Razor.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\System.Web.WebPages.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\WebGrease.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Models.pdb
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.AI.DependencyCollector.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.AI.Web.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.AI.WindowsServer.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.ApplicationInsights.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\PagedList.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\PagedList.Mvc.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\System.Web.Helpers.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\System.Web.Mvc.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\System.Web.Optimization.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\System.Web.Razor.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\System.Web.WebPages.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\System.Web.WebPages.Deployment.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\System.Web.WebPages.Razor.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Antlr3.Runtime.pdb
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Newtonsoft.Json.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\EntityFramework.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\EntityFramework.SqlServer.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Core.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.Security.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Facebook.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Cookies.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.Security.OAuth.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Google.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.Security.Twitter.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\obj\Debug\Web_cafe_film.csprojResolveAssemblyReference.cache
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\obj\Debug\Web_cafe_film.dll
+C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Web_cafe_film\obj\Debug\Web_cafe_film.pdb
