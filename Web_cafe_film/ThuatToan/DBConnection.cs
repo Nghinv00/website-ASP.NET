@@ -9,7 +9,8 @@ namespace Web_cafe_film.ThuatToan
 {
     public class DBConnection
     {
-        string strCon;
+        private string name;
+        private string strCon;
         public DBConnection()
         {
             strCon = ConfigurationManager.ConnectionStrings["DBConnect"].ConnectionString;

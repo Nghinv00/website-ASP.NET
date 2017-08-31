@@ -8,15 +8,9 @@ namespace Web_cafe_film.Areas.Admin
 {
     public class SoBanGhi
     {
-        
-       
-           private static int account;
-
-       
 
 
-
-
+        private static int account;
 
         public static int user;
         SqlConnection sqlcon = new SqlConnection("Data Source=DESKTOP-O7G3RQO;Initial Catalog=WebsiteFilm;Integrated Security=True");
@@ -27,6 +21,6 @@ namespace Web_cafe_film.Areas.Admin
         public static int employee;
         public static int home;
 
-       
+
     }
 }

@@ -67,3 +67,13 @@ C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Models\bin\Debug\EntityFrame
 C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
 C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Models\obj\Debug\Models.dll
 C:\DATA\PhanTichThietKeHeThongThongTin_NCKH\Project\Models\obj\Debug\Models.pdb
+D:\DATA\WebASP\website-ASP.NET\Models\bin\Debug\Models.dll.config
+D:\DATA\WebASP\website-ASP.NET\Models\bin\Debug\Models.dll
+D:\DATA\WebASP\website-ASP.NET\Models\bin\Debug\Models.pdb
+D:\DATA\WebASP\website-ASP.NET\Models\bin\Debug\EntityFramework.dll
+D:\DATA\WebASP\website-ASP.NET\Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\DATA\WebASP\website-ASP.NET\Models\bin\Debug\EntityFramework.xml
+D:\DATA\WebASP\website-ASP.NET\Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\DATA\WebASP\website-ASP.NET\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+D:\DATA\WebASP\website-ASP.NET\Models\obj\Debug\Models.dll
+D:\DATA\WebASP\website-ASP.NET\Models\obj\Debug\Models.pdb
