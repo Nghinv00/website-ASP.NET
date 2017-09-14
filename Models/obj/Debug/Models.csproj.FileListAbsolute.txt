@@ -77,3 +77,13 @@ D:\DATA\WebASP\website-ASP.NET\Models\bin\Debug\EntityFramework.SqlServer.xml
 D:\DATA\WebASP\website-ASP.NET\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
 D:\DATA\WebASP\website-ASP.NET\Models\obj\Debug\Models.dll
 D:\DATA\WebASP\website-ASP.NET\Models\obj\Debug\Models.pdb
+D:\DATA\LacHong\website-ASP.NET\Models\bin\Debug\Models.dll.config
+D:\DATA\LacHong\website-ASP.NET\Models\bin\Debug\Models.dll
+D:\DATA\LacHong\website-ASP.NET\Models\bin\Debug\Models.pdb
+D:\DATA\LacHong\website-ASP.NET\Models\bin\Debug\EntityFramework.dll
+D:\DATA\LacHong\website-ASP.NET\Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\DATA\LacHong\website-ASP.NET\Models\bin\Debug\EntityFramework.xml
+D:\DATA\LacHong\website-ASP.NET\Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\DATA\LacHong\website-ASP.NET\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+D:\DATA\LacHong\website-ASP.NET\Models\obj\Debug\Models.dll
+D:\DATA\LacHong\website-ASP.NET\Models\obj\Debug\Models.pdb
